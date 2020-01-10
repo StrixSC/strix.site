@@ -1,7 +1,7 @@
 # Site settings
 title: Nawras M. Amin | Personal Website
 description: Personal Website of Nawras M. Amin
-baseurl: '/CV' # the subpath of your site, e.g. /blog
+baseurl: 'https://strixsc.github.io/CV' # the subpath of your site, e.g. /blog
 url: 'thestrix.ca' # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
