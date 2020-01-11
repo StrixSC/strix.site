@@ -8,7 +8,14 @@
 }
 
 .tech {
-  margin: 10px;
+  margin: 15px;
+}
+
+.user-profile {
+  text-align: center;
+  p {
+    text-align : justify;
+  }
 }
 
 .user {
@@ -30,4 +37,9 @@
 .user-details {
   text-align: center;
   margin: 5px auto;
+
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
 }
