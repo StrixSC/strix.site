@@ -28,9 +28,11 @@ twitter_username: S7RIX
 github_username:  StrixSC
 
 # Build settings
-theme: monophase
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  
+remote_theme: zivhub/monophase@main
 
 # Exclude from processing.
 # The following items will not be processed, by default.
