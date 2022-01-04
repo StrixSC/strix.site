@@ -1,0 +1,98 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: posts
+    url: posts
+
+  - title: hacker calendar
+    url: calendar
+
+  - title: ctf files
+    url: https://github.com/StrixSC/ctf
+
+project_entries:
+
+
+  - title: Hacker Calendar
+    url: /calendar
+    desc: Auto-updating Google Calendar containing dates to notable hacker events and competitions.
+    highlight: NEW
+
+  - title: Pizza Sparta
+    url: http://pizzasparta.ca
+    desc: Online point of sale system designed for a local pizza restaurant.
+
+  - title: Version Blocklets
+    url: https://github.com/StrixSC/vb
+    desc: A collection of blocklets for i3-blocks designed to get visual feedback on the available tools in your system.
+
+
+old_project_entries:
+  - title: KIVE
+    url: https://github.com/StrixSC/kive
+    desc: Command line automatic multi-format compression, decompression, archiving & unarchiving utility.
+    highlight: NEW
+
+  - title: Colorimage API
+    url: https://colorimage-109-3900.herokuapp.com/docs
+    desc: API designed to communicate with various back-end services for a school project. 
+    highlight: SCHOOL
+
+  - title: Drakos
+    url: https://github.com/StrixSC/Drakos
+    desc: Simple, cheerful and elegant color theme for various tools.
+
+  - title: YCS
+    url: https://github.com/StrixSC/ycs
+    desc: Chrome/Chromium-based browser extension that provides scraping capabilities for YouTube Comments.
+
+  - title: RR
+    url: https://github.com/StrixSC/RR
+    desc: Codebase used to power ATmega328P 8bit microcontroller.
+    highlight: SCHOOL
+
+footer_entries:
+  - title: twitter
+    url: https://twitter.com/S7RIX
+
+  - title: github
+    url: https://github.com/StrixSC
+
+  - title: discord
+    url: https://discordapp.com/users/190323553973829632
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
