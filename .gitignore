@@ -6,6 +6,5 @@ vendor
 
 
 # Remove this on January 8th 2022
-# _posts/2022-01-8-hackthebox-previse.md
-# assets/2022-01-8-hackthebox-previse/
-# assets/2022-01-8-hackthebox-previse/**
+_posts/hackthebox-previse.md
+_posts/hackthebox-love.md
