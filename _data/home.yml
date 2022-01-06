@@ -6,7 +6,7 @@ navbar_entries:
     url: posts
 
   - title: hacker calendar
-    url: calendar
+    url: https://hackercalendar.nawras.dev
 
   - title: ctf files
     url: https://github.com/StrixSC/ctf
