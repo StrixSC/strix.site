@@ -1,13 +1,119 @@
-<iframe class="frame" src="https://hacker-calendar.herokuapp.com"></iframe>
-<style>
-    .frame {
-        width: 100vw;
-        height: 100vh;
-    }
+---
+title: Hacker Calendar
+---
 
-    body {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-</style>
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Hacker Calendar</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff">
+    </meta>
+    <meta name="author" content="StrixSC">
+    </meta>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css' rel='stylesheet' />
+    <script href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js'></script>
+    <link href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.css' rel='stylesheet'>
+
+    <link href='/assets/fullcalendar/main.min.css' rel='stylesheet' />
+    <script src='/assets/fullcalendar/main.min.js'></script>
+
+</head>
+
+<body>
+    <style>
+        .frame {
+            width: 90vw;
+            height: 90vh;
+        }
+
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+        }
+
+        #calendar {
+            margin: 40px auto;
+            width: 80vw;
+            height: 90vh;
+        }
+
+        .action-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 1rem;
+        }
+
+        @media screen {
+            #calendar {
+                height: 85vh !important;
+            }
+        }
+    </style>
+    <div id="hc-nav"></div>
+    <script>
+        $(() => {
+            $("#hc-nav").load("hc-nav.html");
+        });
+    </script>
+    <!-- <div class="main-container">
+        <div class="action-container">
+            <div class="btn-group dropright">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Action
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+        </div> -->
+
+        <div id='calendar'></div>
+    <!-- </div> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const calendarEl = document.getElementById('calendar');
+            const calendar = new FullCalendar.Calendar(calendarEl, {
+                timeZone: 'UTC',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+                },
+                themeSystem: 'bootstrap',
+                initialView: 'listMonth',
+                googleCalendarApiKey: 'AIzaSyCy-ikRwWTzED4POwxs7baxrUsaQdNm4WI',
+                events: {
+                    googleCalendarId: '4ik1bjvl5hd994nuv58ok85snc@group.calendar.google.com'
+                }
+            });
+            calendar.render();
+        });
+    </script>
+</body>
+
+</html>
