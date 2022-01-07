@@ -92,15 +92,25 @@ title: Hacker Calendar
             </div>
         </div> -->
 
-        <div id='calendar'></div>
+    <div id='calendar'></div>
     <!-- </div> -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const calendarEl = document.getElementById('calendar');
+            const calendarSrc = "https://calendar.google.com/calendar/u/0?cid=NGlrMWJqdmw1aGQ5OTRudXY1OG9rODVzbmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
             const calendar = new FullCalendar.Calendar(calendarEl, {
                 timeZone: 'UTC',
+                customButtons: {
+                    googleCalendar: {
+                        text: 'View in Google Calendar',
+                        hint: 'View calendar in Google Calendar',
+                        click: () => {
+                            window.location = calendarSrc 
+                        }
+                    }
+                },
                 headerToolbar: {
-                    left: 'prev,next today',
+                    left: 'prev,next today googleCalendar',
                     center: 'title',
                     right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
                 },
