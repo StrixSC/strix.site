@@ -14,9 +14,9 @@ navbar_entries:
 project_entries:
 
 
-  - title: Hacker Calendar
-    url: /calendar
-    desc: Auto-updating Google Calendar containing dates to notable hacker events and competitions.
+  - title: KIVE
+    url: https://github.com/StrixSC/kive
+    desc: Command line automatic multi-format compression, decompression, archiving & unarchiving utility.
     highlight: NEW
 
   - title: Pizza Sparta
@@ -29,9 +29,10 @@ project_entries:
 
 
 old_project_entries:
-  - title: KIVE
-    url: https://github.com/StrixSC/kive
-    desc: Command line automatic multi-format compression, decompression, archiving & unarchiving utility.
+
+  - title: Hacker Calendar
+    url: /calendar
+    desc: Auto-updating Google Calendar containing dates to notable hacker events and competitions.
     highlight: NEW
 
   - title: Colorimage API
