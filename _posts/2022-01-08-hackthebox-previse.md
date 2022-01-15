@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2022-01-08
-title:  "Previse"
+title:  "HackTheBox: Previse"
 description: Write up and complete walkthrough of HackTheBox's Previse
 ---
 
