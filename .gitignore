@@ -3,8 +3,3 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-
-
-# Remove this on January 8th 2022
-_posts/hackthebox-previse.md
-_posts/hackthebox-love.md
