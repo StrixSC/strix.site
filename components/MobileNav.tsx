@@ -5,7 +5,7 @@ const MobileNav = (props: any) => {
     const { children, ...customMeta } = props;
     const router = useRouter();
 
-    return <div>This is the mobile nav</div>;
+    return <div className="lg:hidden">This is the mobile nav</div>;
 };
 
 export default MobileNav;

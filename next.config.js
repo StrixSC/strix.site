@@ -9,7 +9,8 @@ const withMDX = require('@next/mdx')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-    reactStrictMode: true
+    reactStrictMode: true,
+    images: ['avatars.githubusercontent.com']
 };
 
 // Merge MDX config with Next.js config

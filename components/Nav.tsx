@@ -7,7 +7,7 @@ const Nav = (props: any) => {
     const [mounted, setMounted] = useState(false);
     useEffect(() => setMounted(true), []);
     return (
-        <nav className="flex justify-between items-center">
+        <nav className="hidden lg:flex justify-between items-center">
             <Logo></Logo>
             <div className="flex flex-wrap gap-8 items-center">
                 <ul className="list-none flex flex-wrap gap-4 items-center">

@@ -9,7 +9,12 @@ const NavItem = (props: any) => {
     const isActive = router.asPath === href;
 
     return (
-        <Link className={cn(isActive ? 'font-semibold' : 'font-normal')} href={href}>
+        <Link
+            className={
+                'p-2 dark:bg-inherit rounded-lg hover:ring-2 ring-gray-400 dark:ring-white transition-all ' +
+                cn(isActive ? 'font-semibold text-black dark:text-white' : 'font-normal')
+            }
+            href={href}>
             {text}
         </Link>
     );
