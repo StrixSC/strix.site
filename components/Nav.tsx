@@ -1,10 +1,14 @@
 import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import Logo from './Logo';
 import ModeToggleButton from './ModeToggleButton';
 import NavItem from './NavItem';
 
 const Nav = (props: any) => {
     const router = useRouter();
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => setMounted(true), []);
+    // After mounting, we have access to the theme
     return (
         <nav className="flex justify-between">
             <Logo></Logo>
@@ -29,7 +33,7 @@ const Nav = (props: any) => {
                         <NavItem text="Resume" href="/resume/"></NavItem>
                     </li>
                 </ul>
-                <ModeToggleButton></ModeToggleButton>
+                {mounted && <ModeToggleButton></ModeToggleButton>}
             </div>
         </nav>
     );

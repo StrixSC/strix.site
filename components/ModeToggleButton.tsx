@@ -1,11 +1,20 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faSun } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 const ModeToggleButton = (props: any) => {
-    const { children, ...customMeta } = props;
-    const router = useRouter();
+    const [isDark, setDark] = useState(false);
 
-    return <div>Mode Toggle Button</div>;
+    return (
+        <button
+            onClick={() => {
+                setDark(isDark ? false : true);
+            }}>
+            {isDark && <FontAwesomeIcon icon={faSun} />}
+            {!isDark && <FontAwesomeIcon icon={faMoon} />}
+        </button>
+    );
 };
 
 export default ModeToggleButton;
