@@ -1,0 +1,32 @@
+[
+    {
+        "slug": "blog123",
+        "title": "Defcon CTF Writeup",
+        "image": "https://ctftime.org/media/cache/50/77/507732afa67282d0c3d66f563e90d876.png",
+        "sizing": "standard"
+    },
+    {
+        "slug": "blog123",
+        "title": "Hack.LU 2020 CTF Writeup",
+        "image": "https://portswigger.net/cms/images/0c/8f/4cb294050d45-article-191125-trend-micro-ctf-body-text.jpg",
+        "sizing": "wide"
+    },
+    {
+        "slug": "blog123",
+        "title": "Volga CTF 2022 Writeup",
+        "image": "https://ctftime.org/media/cache/94/00/94009071bea1a71f078cce049aac33ff.png",
+        "sizing": "standard"
+    },
+    {
+        "slug": "blog123",
+        "title": "Dragon Sector 2022 CTF Writeup",
+        "image": "https://ctftime.org/media/cache/54/76/54765423f266cd83f9ac114f2088342a.png",
+        "sizing": "standard"
+    },
+    {
+        "slug": "blog123",
+        "title": "ThinkSecurity 2022 CTF Writeup",
+        "image": "https://ctftime.org/media/cache/b8/4e/b84e159137bd1f47300792185bf7c82e.png",
+        "sizing": "standard"
+    }
+]

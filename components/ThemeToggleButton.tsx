@@ -8,7 +8,7 @@ const ThemeToggleButton = (props: any) => {
 
     return (
         <button
-            className="w-9 h-9 bg-gray-200 dark:bg-inherit rounded-lg hover:ring-2 ring-gray-400 dark:ring-white transition-all"
+            className="w-9 h-9 bg-zinc-300 dark:bg-zinc-900 rounded-lg hover:ring-2 ring-gray-400 dark:ring-white transition-all"
             onClick={() => {
                 setTheme(theme === 'dark' ? 'light' : 'dark');
             }}>
