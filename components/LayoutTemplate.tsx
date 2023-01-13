@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 import MobileNav from './MobileNav';
 import Nav from './Nav';
 
@@ -12,10 +13,11 @@ const LayoutTemplate = (props: any) => {
         type: 'website',
         ...customMeta
     };
-
+    console.log(meta);
+    const [isDark, setDark] = useState();
     const router = useRouter();
     return (
-        <div>
+        <div className={isDark ? 'dark' : ''}>
             <Head>
                 <title>{meta.title} </title>
                 <meta name="robots" content="follow, index" />

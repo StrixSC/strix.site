@@ -5,15 +5,14 @@ import ModeToggleButton from './ModeToggleButton';
 import NavItem from './NavItem';
 
 const Nav = (props: any) => {
-    const router = useRouter();
     const [mounted, setMounted] = useState(false);
     useEffect(() => setMounted(true), []);
     // After mounting, we have access to the theme
     return (
-        <nav className="flex justify-between">
+        <nav className="flex justify-between items-center">
             <Logo></Logo>
-            <div className="flex flex-wrap gap-8">
-                <ul className="list-none flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-8 items-center">
+                <ul className="list-none flex flex-wrap gap-4 items-center">
                     <li className="">
                         <NavItem text="Home" href="/"></NavItem>
                     </li>
