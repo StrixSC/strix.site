@@ -19,5 +19,14 @@ html {
         @apply bg-gray-50 text-gray-900 dark:bg-black dark:text-gray-100;
         @apply min-h-screen;
     }
+}
+
+@layer components {
+
+}
+
+
+
+@layer components {
 
 }

@@ -2,31 +2,120 @@
     {
         "slug": "blog123",
         "title": "Defcon CTF Writeup",
-        "image": "https://ctftime.org/media/cache/50/77/507732afa67282d0c3d66f563e90d876.png",
-        "sizing": "standard"
+        "subtitle": "Sint occaecat minim voluptate sint.",
+        "image": "https://miro.medium.com/max/602/1*tydOsH44M5zHA17KaFPZFQ.png",
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "br",
+        "ststyling": {
+            "color": "white",
+            "background-color": "inherit"
+        },
+        "styling": {
+            "color": "black",
+            "background-color": "white"
+        }
+    },
+    {
+        "slug": "blog123",
+        "title": "Test CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTF",
+        "subtitle": "Ea laborum esse aliquip pariatur sunt sunt excepteur sit nisi labore ipsum exercitation commodo nulla.",
+        "image": "https://i.ytimg.com/vi/8ev9ZX9J45A/maxresdefault.jpg",
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "bl",
+        "ststyling": {
+            "color": "black",
+            "background-color": "lightgray"
+        },
+        "styling": {
+            "color": "white",
+            "background-color": "black"
+        }
+    },
+    {
+        "slug": "blog123",
+        "title": "PicoCTF 2022",
+        "subtitle": "Aliquip aliquip sint occaecat veniam proident amet irure aliqua officia dolore fugiat.",
+        "image": "https://cdn-media-1.freecodecamp.org/ghost/2019/01/ctf.png",
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "m",
+        "ststyling": {
+            "color": "white",
+            "background-color": "inherit"
+        },
+        "styling": {
+            "color": "black",
+            "background-color": "white"
+        }
     },
     {
         "slug": "blog123",
         "title": "Hack.LU 2020 CTF Writeup",
-        "image": "https://portswigger.net/cms/images/0c/8f/4cb294050d45-article-191125-trend-micro-ctf-body-text.jpg",
-        "sizing": "wide"
+        "subtitle": "Voluptate ea id occaecat veniam exercitation id ad sit occaecat.",
+        "image": "https://miro.medium.com/max/1000/1*CiZnQmZMhjZTEjNZ-W2ksw.png",
+        "truncate": 30,
+        "sizing": "wide",
+        "textpos": "br",
+        "ststyling": {
+            "color": "white",
+            "background-color": "inherit"
+        },
+        "styling": {
+            "color": "black",
+            "background-color": "white"
+        }
     },
     {
         "slug": "blog123",
         "title": "Volga CTF 2022 Writeup",
+        "subtitle": "Sit sunt laboris id in esse non dolore minim.",
         "image": "https://ctftime.org/media/cache/94/00/94009071bea1a71f078cce049aac33ff.png",
-        "sizing": "standard"
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "bl",
+        "ststyling": {
+            "color": "white",
+            "background-color": "inherit"
+        },
+        "styling": {
+            "color": "black",
+            "background-color": "white"
+        }
     },
     {
         "slug": "blog123",
         "title": "Dragon Sector 2022 CTF Writeup",
+        "subtitle": "Sunt aliquip veniam et nulla aliqua nisi veniam est est pariatur sunt amet.",
         "image": "https://ctftime.org/media/cache/54/76/54765423f266cd83f9ac114f2088342a.png",
-        "sizing": "standard"
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "br",
+        "ststyling": {
+            "color": "white",
+            "background-color": "inherit"
+        },
+        "styling": {
+            "color": "black",
+            "background-color": "white"
+        }
     },
     {
         "slug": "blog123",
         "title": "ThinkSecurity 2022 CTF Writeup",
+        "subtitle": "Sunt nisi laborum consectetur voluptate labore aute irure.",
         "image": "https://ctftime.org/media/cache/b8/4e/b84e159137bd1f47300792185bf7c82e.png",
-        "sizing": "standard"
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "br",
+        "ststyling": {
+            "color": "white",
+            "background-color": "inherit"
+        },
+        "styling": {
+            "color": "black",
+            "background-color": "white"
+        }
     }
 ]

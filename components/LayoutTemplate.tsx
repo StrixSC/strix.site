@@ -15,9 +15,9 @@ const LayoutTemplate = (props: any) => {
     };
     const router = useRouter();
     return (
-        <div className="bg-gray-100 text-lg dark:bg-black w-2/3 h-full my-12 mx-auto">
+        <div className="text-lg dark:bg-black w-full px-12 lg:px-0 lg:w-2/3 h-full my-12 mx-auto">
             <Head>
-                <title>{meta.title} </title>
+                <title>{`${meta.title}`} </title>
                 <meta name="robots" content="follow, index" />
                 <meta content={meta.description} name="description" />
                 <meta property="og:url" content={`https://strix.site${router.asPath}`} />

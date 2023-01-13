@@ -1,6 +1,6 @@
 const Subtitle = (props: any) => {
     const { text } = props;
-    return <div className="mt-2 text-2xl text-zinc-500">{text}</div>;
+    return <div className="text-2xl text-neutral-500">{text}</div>;
 };
 
 export default Subtitle;
