@@ -12,41 +12,26 @@
     "@mdx-js/react": "^2.2.1",
     "@next/font": "^13.1.1",
     "@next/mdx": "^13.1.1",
-    "@tailwindcss/typography": "^0.5.9",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "classnames": "^2.3.2",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "eslint": "8.31.0",
-    "eslint-config-next": "13.1.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^13.1.1",
     "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.8.3"
-  },
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/components/*": [
-        "components/*"
-      ],
-      "@/lib/*": [
-        "lib/*"
-      ],
-      "@/styles/*": [
-        "styles/*"
-      ],
-      "@/utils/*": [
-        "utils/*"
-      ],
-      "@/layouts/*": [
-        "layouts/*"
-      ]
-    }
   }
 }
