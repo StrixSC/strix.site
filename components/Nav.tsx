@@ -18,19 +18,19 @@ const Nav = (props: any) => {
                         <NavItem text="Home" href="/"></NavItem>
                     </li>
                     <li className="">
-                        <NavItem text="Blog" href="/blog/"></NavItem>
+                        <NavItem text="Blog" href="/blog"></NavItem>
                     </li>
                     <li className="">
-                        <NavItem text="Links" href="/links/"></NavItem>
+                        <NavItem text="Links" href="/links"></NavItem>
                     </li>
                     <li className="">
-                        <NavItem text="Projects" href="/projects/"></NavItem>
+                        <NavItem text="Projects" href="/projects"></NavItem>
                     </li>
                     <li className="">
-                        <NavItem text="Sketches" href="/sketches/"></NavItem>
+                        <NavItem text="Sketches" href="/sketches"></NavItem>
                     </li>
                     <li className="">
-                        <NavItem text="Resume" href="/resume/"></NavItem>
+                        <NavItem text="Resume" href="/resume"></NavItem>
                     </li>
                 </ul>
                 {mounted && <ModeToggleButton></ModeToggleButton>}
