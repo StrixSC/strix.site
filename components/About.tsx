@@ -12,7 +12,7 @@ const About = (props: any) => {
                 <h1 className="mb-1 text-6xl font-extrabold">Nawras M.A.</h1>
                 <h3 className="text-2xl">Build. Reverse. Innovate.</h3>
 
-                <p className="mt-4 text-2xl text-justify">
+                <p className="mt-8 text-2xl text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
