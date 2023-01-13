@@ -3,7 +3,7 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { useTheme } from 'next-themes';
 
-const ModeToggleButton = (props: any) => {
+const ThemeToggleButton = (props: any) => {
     const { theme, setTheme } = useTheme();
 
     return (
@@ -18,4 +18,4 @@ const ModeToggleButton = (props: any) => {
     );
 };
 
-export default ModeToggleButton;
+export default ThemeToggleButton;

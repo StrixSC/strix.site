@@ -1,13 +1,11 @@
-import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import Logo from './Logo';
-import ModeToggleButton from './ModeToggleButton';
-import NavItem from './NavItem';
+import Logo from '@components/Logo';
+import ThemeToggleButton from '@components/ThemeToggleButton';
+import NavItem from '@components/NavItem';
 
 const Nav = (props: any) => {
     const [mounted, setMounted] = useState(false);
     useEffect(() => setMounted(true), []);
-    // After mounting, we have access to the theme
     return (
         <nav className="flex justify-between items-center">
             <Logo></Logo>
@@ -32,7 +30,7 @@ const Nav = (props: any) => {
                         <NavItem text="Resume" href="/resume"></NavItem>
                     </li>
                 </ul>
-                {mounted && <ModeToggleButton></ModeToggleButton>}
+                {mounted && <ThemeToggleButton></ThemeToggleButton>}
             </div>
         </nav>
     );

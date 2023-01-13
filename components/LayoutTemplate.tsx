@@ -13,11 +13,9 @@ const LayoutTemplate = (props: any) => {
         type: 'website',
         ...customMeta
     };
-    console.log(meta);
-    const [isDark, setDark] = useState();
     const router = useRouter();
     return (
-        <div className={isDark ? 'dark' : ''}>
+        <div className="bg-gray-100 dark:bg-black">
             <Head>
                 <title>{meta.title} </title>
                 <meta name="robots" content="follow, index" />
@@ -40,7 +38,7 @@ const LayoutTemplate = (props: any) => {
                 <MobileNav></MobileNav>
                 <Nav></Nav>
             </nav>
-            <main>{children}</main>
+            <main className="">{children}</main>
         </div>
     );
 };

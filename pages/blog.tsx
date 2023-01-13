@@ -1,10 +1,6 @@
 import LayoutTemplate from '@components/LayoutTemplate';
 const BlogPage = () => {
-    return (
-        <LayoutTemplate title="Blog | Strix.Site">
-            <h1 className="text-black">This is the blog page !</h1>
-        </LayoutTemplate>
-    );
+    return <LayoutTemplate title="Blog | Strix.Site">This is the blog page !</LayoutTemplate>;
 };
 
 export default BlogPage;
