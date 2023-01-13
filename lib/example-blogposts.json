@@ -25,8 +25,8 @@
         "sizing": "standard",
         "textpos": "bl",
         "ststyling": {
-            "color": "black",
-            "background-color": "lightgray"
+            "color": "white",
+            "background-color": "rgba(0, 0, 0, 0.7)"
         },
         "styling": {
             "color": "white",
@@ -37,7 +37,7 @@
         "slug": "blog123",
         "title": "PicoCTF 2022",
         "subtitle": "Aliquip aliquip sint occaecat veniam proident amet irure aliqua officia dolore fugiat.",
-        "image": "https://cdn-media-1.freecodecamp.org/ghost/2019/01/ctf.png",
+        "image": "https://images1.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg",
         "truncate": 30,
         "sizing": "standard",
         "textpos": "m",

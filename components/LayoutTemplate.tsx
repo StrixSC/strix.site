@@ -15,7 +15,7 @@ const LayoutTemplate = (props: any) => {
     };
     const router = useRouter();
     return (
-        <div className="text-lg dark:bg-black w-full px-12 lg:px-0 lg:w-2/3 h-full my-12 mx-auto">
+        <div className="text-lg dark:bg-black w-full px-12 lg:w-full xl:p-0 xl:w-2/3 h-full my-12 mx-auto">
             <Head>
                 <title>{`${meta.title}`} </title>
                 <meta name="robots" content="follow, index" />
