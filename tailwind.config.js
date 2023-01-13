@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-paths = [
-  "./pages/**/*.tsx",
-  "./components/**/*.tsx",
-  "./layouts/**/*.tsx"
-]
+const paths = ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx'];
 module.exports = {
-  content: paths,
-  theme: {
-    extend: {},
-  },
-  darkMode: 'class',
-  variants: {
-    typography: ['dark']
-  },
-  plugins: [require('@tailwindcss/typography')],
-}
+    content: paths,
+    theme: {
+        extend: {}
+    },
+    fontFamily: {
+        sans: 'Inter'
+    },
+    darkMode: 'class',
+    variants: {
+        typography: ['dark']
+    },
+    // eslint-disable-next-line global-require
+    plugins: [require('@tailwindcss/typography')]
+};

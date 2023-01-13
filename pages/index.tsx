@@ -1,13 +1,7 @@
-import Link from 'next/link';
-import LayoutTemplate from '../components/LayoutTEmplate';
+import LayoutTemplate from '../components/LayoutTemplate';
 
-const IndexPage = () => (
-    <LayoutTemplate title="Home | Next.js + TypeScript Example">
-        <h1>Hello Next.js 👋</h1>
-        <p className="text-3xl font-bold underline">
-            <Link href="/about">About</Link>
-        </p>
-    </LayoutTemplate>
-);
+const IndexPage = () => {
+    return <LayoutTemplate title="Home | Strix.Site">Index Page</LayoutTemplate>;
+};
 
 export default IndexPage;
