@@ -20,6 +20,7 @@
             "@lib/*": ["lib/*"],
             "@styles/*": ["styles/*"],
             "@utils/*": ["utils/*"],
+            "@interfaces/*": ["interfaces/*"],
             "@layouts/*": ["layouts/*"]
         }
     },

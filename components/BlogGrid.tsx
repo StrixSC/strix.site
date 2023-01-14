@@ -1,8 +1,9 @@
 import articles from '@lib/example-blogposts.json';
 import Link from 'next/link';
 import truncate from '@utils/truncate';
+import { ComponentProps } from 'react';
 
-const BlogGrid = (props: any) => {
+const BlogGrid = (props?: ComponentProps<any>) => {
     let { limit, col } = props;
     const renderArticles = () => {
         if (limit > articles.length) {
@@ -37,7 +38,7 @@ const BlogGrid = (props: any) => {
                     href={articles[i].slug}
                     className={`w-full min-h-[288px] bg-cover xl:min-w-[288px] ${
                         classAddons[articles[i].sizing]
-                    } hover:scale-[1.01] transition-all hover:drop-shadow-lg hover:opacity-95 `}
+                    } transition-all hover:drop-shadow-2xl hover:opacity-[0.97] `}
                     style={style}
                     id={articles[i].title}>
                     <div
