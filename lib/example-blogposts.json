@@ -9,11 +9,11 @@
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "background-color": "inherit"
+            "backgroundColor": "inherit"
         },
         "styling": {
             "color": "black",
-            "background-color": "white"
+            "backgroundColor": "white"
         }
     },
     {
@@ -26,11 +26,11 @@
         "textpos": "bl",
         "ststyling": {
             "color": "white",
-            "background-color": "rgba(0, 0, 0, 0.7)"
+            "backgroundColor": "rgba(0, 0, 0, 0.7)"
         },
         "styling": {
             "color": "white",
-            "background-color": "black"
+            "backgroundColor": "black"
         }
     },
     {
@@ -43,11 +43,11 @@
         "textpos": "m",
         "ststyling": {
             "color": "white",
-            "background-color": "inherit"
+            "backgroundColor": "inherit"
         },
         "styling": {
             "color": "black",
-            "background-color": "white"
+            "backgroundColor": "white"
         }
     },
     {
@@ -60,11 +60,11 @@
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "background-color": "inherit"
+            "backgroundColor": "inherit"
         },
         "styling": {
             "color": "black",
-            "background-color": "white"
+            "backgroundColor": "white"
         }
     },
     {
@@ -77,11 +77,11 @@
         "textpos": "bl",
         "ststyling": {
             "color": "white",
-            "background-color": "inherit"
+            "backgroundColor": "rgba(0, 0, 0, 0.6)"
         },
         "styling": {
             "color": "black",
-            "background-color": "white"
+            "backgroundColor": "white"
         }
     },
     {
@@ -94,11 +94,11 @@
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "background-color": "inherit"
+            "backgroundColor": "inherit"
         },
         "styling": {
             "color": "black",
-            "background-color": "white"
+            "backgroundColor": "white"
         }
     },
     {
@@ -111,11 +111,11 @@
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "background-color": "inherit"
+            "backgroundColor": "inherit"
         },
         "styling": {
             "color": "black",
-            "background-color": "white"
+            "backgroundColor": "white"
         }
     }
 ]

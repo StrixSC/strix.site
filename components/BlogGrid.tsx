@@ -3,7 +3,7 @@ import Link from 'next/link';
 import truncate from '@utils/truncate';
 
 const BlogGrid = (props: any) => {
-    let { limit } = props;
+    let { limit, col } = props;
     const renderArticles = () => {
         if (limit > articles.length) {
             limit = articles.length;
@@ -45,7 +45,7 @@ const BlogGrid = (props: any) => {
                             articles[i].textpos ? textPositions[articles[i].textpos] : ''
                         }`}>
                         <div className="flex flex-col gap-2">
-                            <div style={articles[i].styling} className="text-2xl">
+                            <div style={articles[i].styling} className="text-2xl w-fit">
                                 {articles[i].title.length >= articles[i].truncate ? (
                                     <>
                                         {' '}
@@ -55,8 +55,7 @@ const BlogGrid = (props: any) => {
                                     articles[i].title
                                 )}
                             </div>
-                            <p className="block" style={articles[i].ststyling}>
-                                {' '}
+                            <p className="block w-fit" style={articles[i].ststyling}>
                                 {articles[i].subtitle}
                             </p>
                         </div>
@@ -70,9 +69,9 @@ const BlogGrid = (props: any) => {
     return (
         <div
             id="blog-layout"
-            className="
-                flex flex-col auto-rows-auto md:grid md:grid-cols-2 lg:grid-cols-3 grid-flow-dense gap-4
-            ">
+            className={`flex flex-col auto-rows-auto md:grid md:grid-cols-${
+                col - 1
+            } lg:grid-cols-${col} grid-flow-dense gap-4`}>
             {renderArticles()}
         </div>
     );
