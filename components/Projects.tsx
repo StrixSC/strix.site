@@ -15,8 +15,9 @@ const Projects = (props?: ComponentProps<any>) => {
     let bubbles: Bubble[] = [];
     let width = 500;
     let height = 500;
-    const MAX_SMALL_BUBBLE_RADIUS = 10;
-    const MIN_SMALL_BUBBLE_RADIUS = 5;
+    const MAX_SMALL_BUBBLE_RADIUS = 20;
+    const MIN_SMALL_BUBBLE_RADIUS = 15;
+    const MIN_ERROR = 25;
     let main: p5Types.Vector;
     let angle = 0;
     let mainr = width / 3.4;
@@ -47,7 +48,6 @@ const Projects = (props?: ComponentProps<any>) => {
             let y = br * p5.sin(theta);
             bubbles.push(new Bubble(p, p5, p5.createVector(x, y), radius));
         }
-        console.log(bubbles);
     };
 
     const draw = (p5: p5Types) => {
@@ -60,39 +60,30 @@ const Projects = (props?: ComponentProps<any>) => {
         }
     };
 
-    const checkMousePos = (
-        p5: p5Types,
-        callback: (bubble: Bubble) => any,
-        callbackFalsy?: (bubble: Bubble) => any
-    ) => {
+    const mouseMoved = (p5: p5Types) => {
         const mouseX = p5.mouseX - width / 2; // We have to translate the mouse coordinates too
         const mouseY = p5.mouseY - height / 2;
         for (let bubble of bubbles) {
-            if (p5.dist(mouseX, mouseY, bubble.com.x, bubble.com.y) <= bubble.radius) {
-                callback(bubble);
+            const distance = p5.dist(mouseX, mouseY, bubble.com.x, bubble.com.y);
+            if (distance <= bubble.radius) {
+                bubble.state = 'GROWING';
+            } else if (distance <= bubble.radius + MIN_ERROR) {
+                bubble.state = 'GROWING_NEAR';
             } else {
-                if (callbackFalsy) {
-                    callbackFalsy(bubble);
-                }
+                bubble.state = 'SHRINKING';
             }
         }
     };
     const mousePressed = (p5: p5Types) => {
-        checkMousePos(p5, (bubble: Bubble) => {
-            bubble.onClick();
-        });
-    };
+        const mouseX = p5.mouseX - width / 2; // We have to translate the mouse coordinates too
+        const mouseY = p5.mouseY - height / 2;
 
-    const mouseMoved = (p5: p5Types) => {
-        checkMousePos(
-            p5,
-            (bubble: Bubble) => {
-                bubble.onHover();
-            },
-            (bubble) => {
-                bubble.onHoverOff();
+        for (let bubble of bubbles) {
+            const distance = p5.dist(mouseX, mouseY, bubble.com.x, bubble.com.y);
+            if (distance <= bubble.radius) {
+                bubble.onClick();
             }
-        );
+        }
     };
 
     return (
@@ -101,7 +92,7 @@ const Projects = (props?: ComponentProps<any>) => {
                 id="project-viewer"
                 className="rounded-full absolute flex justify-center items-center"></div>
             <Sketch
-                className="rounded-md bg-white border-neutral-300 dark:border-neutral-900 border-2"
+                className=""
                 setup={setup}
                 mouseMoved={mouseMoved}
                 mousePressed={mousePressed}

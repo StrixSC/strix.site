@@ -8,7 +8,7 @@ html {
 }
 
 #__next {
-    @apply bg-neutral-100 dark:bg-black;
+    @apply bg-white dark:bg-black;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
