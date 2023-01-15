@@ -9,12 +9,13 @@ const Explore = (props: ComponentProps<any>) => {
         width: 720,
         height: 720
     };
-
+    let loaded = false;
     const { config } = props;
 
     useEffect(() => {
         init();
-        return function cleanup() {
+        loaded = true;
+        return () => {
             done = true;
         };
     }, []);
@@ -99,22 +100,23 @@ const Explore = (props: ComponentProps<any>) => {
         });
     };
 
-    const getNodeUnder = (x, y) => {
-        let nodes = [];
+    const getNodeUnder = (x: number, y: number): Node => {
+        let under = [];
         let chosen = null;
 
         for (var i = nodes.length - 1; i >= 0; i += -1) {
             var n = nodes[i];
             if (n.hitTest(x, y) && !n.data.lame) {
-                nodes.push(n);
+                under.push(n);
             }
         }
-        nodes.forEach((node) => {
+        under.forEach((node) => {
             if (!node.data.small) {
                 chosen = node;
             }
         });
-        return nodes.length && !chosen ? nodes[0] : chosen;
+
+        return under.length && !chosen ? under[0] : chosen;
     };
 
     const selectNone = () => {
@@ -126,11 +128,11 @@ const Explore = (props: ComponentProps<any>) => {
         }
     };
 
-    const selectProject = (node) => {
+    const selectProject = (node: Node) => {
         selected_project = node.data;
         setTimeout(() => {
             selected_project_changed = true;
-        }, 200);
+        }, 500);
     };
 
     const moveHandler = (evt: MouseEvent) => {
@@ -213,12 +215,12 @@ const Explore = (props: ComponentProps<any>) => {
         hovered = false;
     };
 
-    const userActionOccurred = function () {
+    const userActionOccurred = () => {
         setNextActionDelay(AMBIENCE_WAIT_AFTER_USER_INPUT);
         activeNode = getActiveNodes()[0];
     };
 
-    const setNextActionDelay = function (offset: number) {
+    const setNextActionDelay = (offset: number) => {
         nextActionTime = new Date(new Date().getTime() + offset);
     };
 
@@ -261,7 +263,6 @@ const Explore = (props: ComponentProps<any>) => {
             if (n.link != null) {
                 continue;
             }
-            // # continue if Math.random() > 0.9
             n.linkTo(nodes[Math.floor(Math.random() * nodes.length)]);
         }
     };
@@ -270,6 +271,10 @@ const Explore = (props: ComponentProps<any>) => {
         ctx.clearRect(0, 0, canvas_width, canvas_height);
         ctx.save();
         ctx.translate(canvas_width / 2, canvas_height / 2);
+
+        nodes.forEach((node, index) => {
+            node.renderLink(ctx);
+        });
 
         // Lame (gray non-interactive) nodes next
         nodes.forEach((node) => {
@@ -328,7 +333,7 @@ const Explore = (props: ComponentProps<any>) => {
     };
 
     const doRandomAction = () => {
-        let node;
+        let node: Node;
         const filteredNodes = filterLames();
         if (pauseInteraction) {
             return;
@@ -354,7 +359,28 @@ const Explore = (props: ComponentProps<any>) => {
         return nodes.filter((node) => !node.data.lame);
     };
 
-    return <canvas id="canvasEL" height="320" width="480" style={styles}></canvas>;
+    return (
+        <div>
+            <canvas id="canvasEL" height="320" width="480" style={styles}></canvas>
+            {loaded && (
+                <div
+                    className={
+                        selected_project_changed
+                            ? 'selected-project active'
+                            : 'selected-project unactive'
+                    }>
+                    <div className="project-summary">
+                        <img src={`${selected_project.iconUrlMedium}`} alt="logo" />
+                        <h5>{selected_project.name}</h5>
+                        <p>{selected_project.summary}</p>
+                    </div>
+                    <a className="text-btn" href={`${selected_project.url}`}>
+                        View Project
+                    </a>
+                </div>
+            )}
+        </div>
+    );
 };
 
 export default Explore;

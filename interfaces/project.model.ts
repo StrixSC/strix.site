@@ -9,6 +9,7 @@ export interface Project {
     name?: string;
     summary?: string;
     iconUrlSmall?: string;
+    url?: string;
     iconUrlMedium?: string;
     primaryColor?: string;
     startsWith?: string;

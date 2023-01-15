@@ -276,7 +276,7 @@ export default class Node {
         return Math.max(0, (this.MAX_LINK_LENGTH - distance) / this.MAX_LINK_LENGTH);
     }
 
-    renderLink(ctx, filter) {
+    renderLink(ctx: CanvasRenderingContext2D) {
         if (this.link != null && !this.data.lame) {
             ctx.save();
             ctx.beginPath();
@@ -308,7 +308,7 @@ export default class Node {
         }
     }
 
-    linkTo(node) {
+    linkTo(node: Node) {
         if (!node.data.lame) {
             this.linkStartTime = new Date();
             this.link = node;

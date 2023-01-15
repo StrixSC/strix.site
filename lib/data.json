@@ -1,5 +1,6 @@
 [
     {
+        "url": "#",
         "id": "sketch-rtl",
         "name": "RTL Sketch Plugin",
         "summary": "Automatically create RTL layouts of your designs with this plugin for Bohemian Coding's Sketch 3",
@@ -12,11 +13,12 @@
         }
     },
     {
+        "url": "#",
         "id": "certificate-transparency",
         "name": "Certificate Transparency",
         "summary": "A framework for monitoring and auditing SSL certificates in nearly real time",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#181C1D",
         "startsWith": "c",
         "fallbackColor": "#4285F4",
@@ -27,11 +29,12 @@
         }
     },
     {
+        "url": "#",
         "id": "go",
         "name": "Go",
         "summary": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#6FD6E2",
         "startsWith": "g",
         "fallbackColor": "#FBBC05",
@@ -42,11 +45,12 @@
         }
     },
     {
+        "url": "#",
         "id": "boringssl",
         "name": "BoringSSL",
         "summary": "A fork of OpenSSL used to implement cryptography and TLS across most of Google's products",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#6B4B9F",
         "startsWith": "b",
         "fallbackColor": "#4285F4",
@@ -57,11 +61,12 @@
         }
     },
     {
+        "url": "#",
         "id": "dart",
         "name": "Dart",
         "summary": "Dart is a language designed to be productive, stable, and free of surprises",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#13D5BD",
         "startsWith": "d",
         "fallbackColor": "#FBBC05",
@@ -72,6 +77,7 @@
         }
     },
     {
+        "url": "#",
         "id": "easypki",
         "name": "Easy Public Key Infrastructure",
         "summary": "A simplified Public Key Infrastructure management tool",
@@ -84,6 +90,7 @@
         }
     },
     {
+        "url": "#",
         "id": "snazzymaps-browser",
         "name": "Snazzymaps Browser",
         "summary": "Android app for searching and browsing Snazzy Maps",
@@ -96,11 +103,12 @@
         }
     },
     {
+        "url": "#",
         "id": "crouton",
         "name": "crouton",
         "summary": "Chromium OS Universal Chroot Environment",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#696969",
         "startsWith": "c",
         "fallbackColor": "#EA4335",
@@ -111,6 +119,7 @@
         }
     },
     {
+        "url": "#",
         "id": "fontview",
         "name": "FontView",
         "summary": "A demo app that displays fonts using a free/libre/open-source text rendering stack",
@@ -123,6 +132,7 @@
         }
     },
     {
+        "url": "#",
         "id": "tesseract",
         "name": "Tesseract OCR",
         "summary": "An optical character recognition (OCR) engine",
@@ -135,11 +145,12 @@
         }
     },
     {
+        "url": "#",
         "id": "blockly",
         "name": "Blockly",
         "summary": "Open source library for adding drag and drop block coding to apps",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#81A8E6",
         "startsWith": "b",
         "fallbackColor": "#34A853",
@@ -150,6 +161,7 @@
         }
     },
     {
+        "url": "#",
         "id": "syntaxnet",
         "name": "SyntaxNet",
         "summary": "A TensorFlow based NLU toolkit",
@@ -162,6 +174,7 @@
         }
     },
     {
+        "url": "#",
         "id": "science-journal-arduino",
         "name": "science-journal-arduino",
         "summary": "Science Journal Arduino Firmware",
@@ -174,11 +187,12 @@
         }
     },
     {
+        "url": "#",
         "id": "agera",
         "name": "Agera",
         "summary": "Reactive Programming for Android",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#b3278a",
         "startsWith": "a",
         "fallbackColor": "#34A853",
@@ -189,11 +203,12 @@
         }
     },
     {
+        "url": "#",
         "id": "polymer",
         "name": "Polymer",
         "summary": "A lightweight library built on top of the Web Components standard",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#337FCC",
         "startsWith": "p",
         "fallbackColor": "#FBBC05",
@@ -204,11 +219,12 @@
         }
     },
     {
+        "url": "#",
         "id": "android",
         "name": "Android",
         "summary": "An operating system for a wide range of devices",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#A7C640",
         "startsWith": "a",
         "fallbackColor": "#EA4335",
@@ -219,6 +235,7 @@
         }
     },
     {
+        "url": "#",
         "id": "ndprbrd",
         "name": "ndprbrd",
         "summary": "NDP Routing Bridge Daemon",
@@ -231,11 +248,12 @@
         }
     },
     {
+        "url": "#",
         "id": "hilbert",
         "name": "Hilbert",
         "summary": "Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#323232",
         "startsWith": "h",
         "fallbackColor": "#EA4335",
@@ -246,6 +264,7 @@
         }
     },
     {
+        "url": "#",
         "id": "prob.js",
         "name": "Prob.js",
         "summary": "Generate random numbers from different probability distributions",
@@ -258,11 +277,12 @@
         }
     },
     {
+        "url": "#",
         "id": "magenta",
         "name": "Magenta",
         "summary": "Magenta: Music and Art Generation with Machine Intelligence",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#06213C",
         "startsWith": "m",
         "fallbackColor": "#34A853",
@@ -273,11 +293,12 @@
         }
     },
     {
+        "url": "#",
         "id": "angular",
         "name": "Angular",
         "summary": "A web application framework for mobile, desktop, and web",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "startsWith": "a",
         "fallbackColor": "#FBBC05",
         "RGB": {
@@ -287,6 +308,7 @@
         }
     },
     {
+        "url": "#",
         "id": "cameraview",
         "name": "CameraView",
         "summary": "CameraView helps Android developers easily integrate Camera features",
@@ -299,6 +321,7 @@
         }
     },
     {
+        "url": "#",
         "id": "flexbox-layout",
         "name": "flexbox-layout",
         "summary": "Flexbox for Android",
@@ -311,11 +334,12 @@
         }
     },
     {
+        "url": "#",
         "id": "bazel",
         "name": "Bazel",
         "summary": "Google's build system for fast and correct builds",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#43A047",
         "startsWith": "b",
         "fallbackColor": "#FBBC05",
@@ -326,6 +350,7 @@
         }
     },
     {
+        "url": "#",
         "id": "noto",
         "name": "Noto Fonts",
         "summary": "Fonts aiming to support all languages with a harmonious look and feel",
@@ -338,6 +363,7 @@
         }
     },
     {
+        "url": "#",
         "id": "fontdiff",
         "name": "FontDiff",
         "summary": "A tool for finding visual differences between font versions",
@@ -350,6 +376,7 @@
         }
     },
     {
+        "url": "#",
         "id": "mail-importer",
         "name": "Mail Importer for Gmail",
         "summary": "Mail Importer for Gmail will upload the contents of a Thunderbird mail archive to Gmail and do its best to preserve the read state, flagged state, and folders of the messages",
@@ -362,6 +389,7 @@
         }
     },
     {
+        "url": "#",
         "id": "cas-eval",
         "name": "Clicks-Attention-Satisfaction Evaluation Model and Metric",
         "summary": "A collection of components to collect data and train a user model and a corresponding search engine result page evaluation metric",
@@ -374,6 +402,7 @@
         }
     },
     {
+        "url": "#",
         "id": "ssh-scripts",
         "name": "ssh-scripts",
         "summary": "Some SSH-related scripts",
@@ -386,6 +415,7 @@
         }
     },
     {
+        "url": "#",
         "id": "moe",
         "name": "MOE: Make Open Easy",
         "summary": "Synchronizes, translates, and scrubs source code repositories",
@@ -398,11 +428,12 @@
         }
     },
     {
+        "url": "#",
         "id": "end-to-end",
         "name": "End-To-End",
         "summary": "End-To-End is a Chrome extension that helps you encrypt, decrypt, digitally sign, and verify signed messages within the browser using OpenPGP",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#333332",
         "startsWith": "e",
         "fallbackColor": "#EA4335",
@@ -413,6 +444,7 @@
         }
     },
     {
+        "url": "#",
         "id": "error-prone",
         "name": "Error Prone",
         "summary": "A bug detection tool for Java code, integrated into the Java compiler",
@@ -425,11 +457,12 @@
         }
     },
     {
+        "url": "#",
         "id": "radioreceiver",
         "name": "Radio Receiver",
         "summary": "An application to listen to broadcast stereo FM and AM radio from your Chrome browser or your ChromeBook computer using a $15 USB digital TV tuner",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#AA7522",
         "startsWith": "r",
         "fallbackColor": "#34A853",
@@ -440,6 +473,7 @@
         }
     },
     {
+        "url": "#",
         "id": "go-github",
         "name": "go-github",
         "summary": "Go library for accessing the GitHub API",
@@ -452,11 +486,12 @@
         }
     },
     {
+        "url": "#",
         "id": "copybara",
         "name": "Copybara",
         "summary": "A tool for transforming and moving code between repositories",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#41929D",
         "startsWith": "c",
         "fallbackColor": "#EA4335",
@@ -467,6 +502,7 @@
         }
     },
     {
+        "url": "#",
         "id": "three-things-today",
         "name": "three-things-today",
         "summary": "Simple Android application to encourage writing down three things that happened today",
@@ -479,6 +515,7 @@
         }
     },
     {
+        "url": "#",
         "id": "python-fanotify",
         "name": "fanotify Bindings for Python",
         "summary": "Python bindings for Linux's fanotify API",
@@ -491,6 +528,7 @@
         }
     },
     {
+        "url": "#",
         "id": "zopfli",
         "name": "Zopfli",
         "summary": "Zopfli is a compression library designed to be very good, but slow",
@@ -503,11 +541,12 @@
         }
     },
     {
+        "url": "#",
         "id": "nomulus",
         "name": "Nomulus",
         "summary": "Top-level domain name registry software on Google Cloud Platform",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#394A4A",
         "startsWith": "n",
         "fallbackColor": "#FBBC05",
@@ -518,11 +557,12 @@
         }
     },
     {
+        "url": "#",
         "id": "airport",
         "name": "Airport Puzzle Solver",
         "summary": "Visual puzzle solver for Smartgames 'Airport' puzzle",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#DDCEC5",
         "startsWith": "a",
         "fallbackColor": "#FBBC05",
@@ -533,11 +573,12 @@
         }
     },
     {
+        "url": "#",
         "id": "touchtime",
         "name": "TouchTime",
         "summary": "Tells the time through vibration patterns on an Android smartwatch",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#DC4538",
         "startsWith": "t",
         "fallbackColor": "#4285F4",
@@ -548,11 +589,12 @@
         }
     },
     {
+        "url": "#",
         "id": "remixer",
         "name": "Remixer",
         "summary": "A set of cross-platform libraries and protocols to allow the sharing of design values and live refinement of apps during the development process",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#E783FB",
         "startsWith": "r",
         "fallbackColor": "#FBBC05",
@@ -563,11 +605,12 @@
         }
     },
     {
+        "url": "#",
         "id": "chromium",
         "name": "Chromium",
         "summary": "A safer, faster, and more stable web browser",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#83AEF6",
         "startsWith": "c",
         "fallbackColor": "#34A853",
@@ -578,11 +621,12 @@
         }
     },
     {
+        "url": "#",
         "id": "appauth",
         "name": "AppAuth",
         "summary": "Native App SDK for OAuth 2.0 and OpenID Connect implementing modern best practices",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#2bace2",
         "startsWith": "a",
         "fallbackColor": "#34A853",
@@ -593,6 +637,7 @@
         }
     },
     {
+        "url": "#",
         "id": "jterm-cswithandroid",
         "name": "JTerm at Smith 2017 Course Materials: CS With Android",
         "summary": "Starter code and example solutions for JTerm course, CS with Android, in January 2017",
@@ -605,11 +650,12 @@
         }
     },
     {
+        "url": "#",
         "id": "grpc",
         "name": "gRPC",
         "summary": "A high-performance universal RPC framework",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#44AFB8",
         "startsWith": "g",
         "fallbackColor": "#EA4335",
@@ -620,11 +666,12 @@
         }
     },
     {
+        "url": "#",
         "id": "ganeti",
         "name": "Ganeti",
         "summary": "A virtual machine cluster management tool",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#B5D1FA",
         "startsWith": "g",
         "fallbackColor": "#34A853",
@@ -635,11 +682,12 @@
         }
     },
     {
+        "url": "#",
         "id": "flutter",
         "name": "Flutter",
         "summary": "Build high-fidelity apps for iOS and Android from a single codebase",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#4CC2F7",
         "startsWith": "f",
         "fallbackColor": "#FBBC05",
@@ -650,11 +698,12 @@
         }
     },
     {
+        "url": "#",
         "id": "hstspreload",
         "name": "HSTS Preload List",
         "summary": "The submission website for the Chromium-maintained HSTS preload list, which is used by major browsers to hardcode HTTPS-only sites",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#1ac222",
         "startsWith": "h",
         "fallbackColor": "#FBBC05",
@@ -665,11 +714,12 @@
         }
     },
     {
+        "url": "#",
         "id": "badwolf",
         "name": "BadWolf",
         "summary": "Temporal graph store abstraction layer",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#1E4689",
         "startsWith": "b",
         "fallbackColor": "#34A853",
@@ -680,6 +730,7 @@
         }
     },
     {
+        "url": "#",
         "id": "squidwarden",
         "name": "squidwarden",
         "summary": "Frontend to squid to manage ACLs",
@@ -692,6 +743,7 @@
         }
     },
     {
+        "url": "#",
         "id": "neuroglancer",
         "name": "Neuroglancer",
         "summary": "WebGL-based viewer for volumetric data",
@@ -704,6 +756,7 @@
         }
     },
     {
+        "url": "#",
         "id": "google-authenticator-libpam",
         "name": "Google Authenticator PAM module",
         "summary": "HOTP/TOTP second factor PAM module",
@@ -716,11 +769,12 @@
         }
     },
     {
+        "url": "#",
         "id": "upspin",
         "name": "Upspin",
         "summary": "An experimental framework for naming and sharing files and other data securely, uniformly, and globally",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#fffce6",
         "startsWith": "u",
         "fallbackColor": "#EA4335",
@@ -731,11 +785,12 @@
         }
     },
     {
+        "url": "#",
         "id": "oppia",
         "name": "Oppia",
         "summary": "A tool for collaboratively creating and sharing interactive online lessons",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#16AA9D",
         "startsWith": "o",
         "fallbackColor": "#FBBC05",
@@ -746,6 +801,7 @@
         }
     },
     {
+        "url": "#",
         "id": "protobuf",
         "name": "Protobuf",
         "summary": "Google's data interchange format",
@@ -758,6 +814,7 @@
         }
     },
     {
+        "url": "#",
         "id": "benchmark",
         "name": "benchmark",
         "summary": "A microbenchmark support library",
@@ -770,11 +827,12 @@
         }
     },
     {
+        "url": "#",
         "id": "kubernetes",
         "name": "Kubernetes",
         "summary": "Automated container deployment, scaling, and management",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#326ce5",
         "startsWith": "k",
         "fallbackColor": "#4285F4",
@@ -785,11 +843,12 @@
         }
     },
     {
+        "url": "#",
         "id": "material-components-ios",
         "name": "Material Components for iOS",
         "summary": "Modular and customizable Material Design UI components for iOS",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#00e676",
         "startsWith": "m",
         "fallbackColor": "#4285F4",
@@ -800,6 +859,7 @@
         }
     },
     {
+        "url": "#",
         "id": "genomewarp",
         "name": "GenomeWarp",
         "summary": "GenomeWarp translates genetic variants from one genome assembly version to another",
@@ -812,11 +872,12 @@
         }
     },
     {
+        "url": "#",
         "id": "cloudprint_logocert",
         "name": "Google Cloud Print Logo Certification Tool",
         "summary": "Google Cloud Print Logo Certification Automation",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#577EBF",
         "startsWith": "g",
         "fallbackColor": "#FBBC05",
@@ -827,11 +888,12 @@
         }
     },
     {
+        "url": "#",
         "id": "science-journal",
         "name": "Open Science Journal",
         "summary": "Science Journal Android code",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#3C7CE9",
         "startsWith": "o",
         "fallbackColor": "#4285F4",
@@ -842,6 +904,7 @@
         }
     },
     {
+        "url": "#",
         "id": "vim-plugins",
         "name": "Google Vim plugins",
         "summary": "Plugins to enhance the Vim text editor",
@@ -854,11 +917,12 @@
         }
     },
     {
+        "url": "#",
         "id": "tensorflow",
         "name": "TensorFlow",
         "summary": "TensorFlow is a fast, flexible, and scalable open source machine learning library for research and production",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#E26026",
         "startsWith": "t",
         "fallbackColor": "#34A853",
@@ -869,6 +933,7 @@
         }
     },
     {
+        "url": "#",
         "id": "mcm",
         "name": "Minimal Configuration Manager",
         "summary": "A suite of tools to provide configuration management",
@@ -881,11 +946,12 @@
         }
     },
     {
+        "url": "#",
         "id": "ezgantt",
         "name": "EZ Gantt",
         "summary": "Easily view a Google Spreadsheet as a Gantt Chart",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#A59B94",
         "startsWith": "e",
         "fallbackColor": "#FBBC05",
@@ -896,11 +962,12 @@
         }
     },
     {
+        "url": "#",
         "id": "dart-sass",
         "name": "Dart Sass",
         "summary": "A Dart implementation of Sass",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#C76395",
         "startsWith": "d",
         "fallbackColor": "#34A853",
@@ -911,11 +978,12 @@
         }
     },
     {
+        "url": "#",
         "id": "permission.site",
         "name": "permission.site",
         "summary": "A site to test the interaction of web APIs and browser permissions",
-        "iconUrlSmall": "https://app.pizzasparta.ca/en/favicon.ico",
-        "iconUrlMedium": "https://app.pizzasparta.ca/en/favicon.ico",
+        "iconUrlSmall": "",
+        "iconUrlMedium": "",
         "primaryColor": "#545454",
         "startsWith": "p",
         "fallbackColor": "#4285F4",
