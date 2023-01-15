@@ -1,5 +1,5 @@
 // pages/_app.js
-import '@styles/globals.css';
+import '@styles/globals.scss';
 import { ThemeProvider } from 'next-themes';
 import { Inter } from '@next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';

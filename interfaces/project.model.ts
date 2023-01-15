@@ -1,17 +1,20 @@
-export default interface Project {
-    title: string;
-    description: string;
-    url: string;
-    bcolor: {
-        R: number;
-        G: number;
-        B: number;
-        A: number;
-    };
-    bopacity: number;
-    image: string;
-    tech: {
-        slug: string;
-        name: string;
-    }[];
+export interface RGB {
+    r: number;
+    g: number;
+    b: number;
+}
+
+export interface Project {
+    id?: string;
+    name?: string;
+    summary?: string;
+    iconUrlSmall?: string;
+    iconUrlMedium?: string;
+    primaryColor?: string;
+    startsWith?: string;
+    fallbackColor?: string;
+    RGB?: RGB;
+    lame?: boolean;
+    small?: boolean;
+    focus?: boolean;
 }

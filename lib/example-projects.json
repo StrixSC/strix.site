@@ -3,458 +3,458 @@
         "image": "https://app.pizzasparta.ca/en/favicon.ico",
         "bopacity": 0.5,
         "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 255,
-            "G": 0,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 255,
-            "B": 0,
-            "A": 125
-        },
-        "title": "Pizza Sparta",
-        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
-        "tech": 
-        [
-            {
-            "slug": "siangular", 
-            "name": "Angular" 
-            },
-            {
-                "slug": "sifirebase", 
-                "name": "Firebase"
-            },
-            {
-                "slug": "sistripe",
-                "name": ""
-            }
-        ],
-        "url": "https://app.pizzasparta.ca"
-    },
-    {
-        "image": "https://app.pizzasparta.ca/en/favicon.ico",
-        "bopacity": 0.5,
-        "bcolor": {
-            "R": 0,
-            "G": 0,
+            "R": 228,
+            "G": 37,
             "B": 255,
-            "A": 125
+            "A": 107
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 67,
+            "G": 42,
+            "B": 66,
+            "A": 152
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 217,
+            "G": 10,
+            "B": 126,
+            "A": 159
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 86,
+            "G": 68,
+            "B": 95,
+            "A": 136
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 246,
+            "G": 179,
+            "B": 173,
+            "A": 132
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 102,
+            "G": 194,
+            "B": 61,
+            "A": 130
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 94,
+            "G": 171,
+            "B": 178,
+            "A": 152
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 231,
+            "G": 115,
+            "B": 224,
+            "A": 148
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 115,
+            "G": 210,
+            "B": 59,
+            "A": 128
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 89,
+            "G": 88,
+            "B": 163,
+            "A": 159
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 170,
+            "G": 50,
+            "B": 1,
+            "A": 106
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 176,
+            "G": 164,
+            "B": 95,
+            "A": 113
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 137,
+            "G": 247,
+            "B": 254,
+            "A": 106
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 2,
+            "G": 196,
+            "B": 178,
+            "A": 148
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 224,
+            "G": 175,
+            "B": 109,
+            "A": 104
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 184,
+            "G": 189,
+            "B": 27,
+            "A": 141
+        },
+        "title": "Pizza Sparta",
+        "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
+        "tech": 
+        [
+            {
+            "slug": "siangular", 
+            "name": "Angular" 
+            },
+            {
+                "slug": "sifirebase", 
+                "name": "Firebase"
+            },
+            {
+                "slug": "sistripe",
+                "name": ""
+            }
+        ],
+        "url": "https://app.pizzasparta.ca"
+    },
+    {
+        "image": "https://app.pizzasparta.ca/en/favicon.ico",
+        "bopacity": 0.5,
+        "bcolor": {
+            "R": 102,
+            "G": 17,
+            "B": 96,
+            "A": 105
         },
         "title": "Pizza Sparta",
         "description": "Magna esse est sunt fugiat amet ut est irure quis veniam ad ea.",
