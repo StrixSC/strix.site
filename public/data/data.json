@@ -52,15 +52,15 @@
         "id": "snakeos",
         "name": "SnakeOS",
         "summary": "Classic snake game, made with less than 512 bytes.",
-        "iconUrlSmall": "",
-        "iconUrlMedium": "",
-        "primaryColor": "#c6df28",
+        "iconUrlSmall": "assets/snakeos.svg",
+        "iconUrlMedium": "assets/snakeos.svg",
+        "primaryColor": "#082a32",
         "startsWith": "s",
-        "fallbackColor": "#c6df28",
+        "fallbackColor": "#082a32",
         "RGB": {
-            "r": 198,
-            "g": 223,
-            "b": 40
+            "r": 8,
+            "g": 42,
+            "b": 50
         }
     },
     {
@@ -78,6 +78,23 @@
             "r": 248,
             "g": 163,
             "b": 66
+        }
+    },
+    {
+        "url": "https://github.com/strixsc/drakos",
+        "id": "Drakos",
+        "name": "Drakos",
+        "attribution": "Dragon Logo Vectors by Vecteezy",
+        "summary": "Simple color theme for various tools",
+        "iconUrlSmall": "assets/drakos.svg",
+        "iconUrlMedium": "assets/drakos.svg",
+        "primaryColor": "#effbff",
+        "startsWith": "c",
+        "fallbackColor": "#effbff",
+        "RGB": {
+            "r": 192,
+            "g": 203,
+            "b": 207
         }
     }
 ]
