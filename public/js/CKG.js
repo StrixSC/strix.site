@@ -294,7 +294,11 @@ class Node {
 
         const startAngle = Math.random() * Math.PI * 2;
         const startRadius = Math.random() * 20;
-        const fallbackImg = 'https://app.pizzasparta.ca/en/favicon.ico';
+        const fallbackImg = 'assets/' + this.data.startsWith + '.webp';
+        if (!this.data.iconUrlMedium || !this.data.iconUrlSmall) {
+            this.data.iconUrlMedium = fallbackImg;
+            this.data.iconUrlSmall = fallbackImg;
+        }
 
         if (!this.data.lame && !this.data.small) {
             this.IDLE_RADIUS = 30;
