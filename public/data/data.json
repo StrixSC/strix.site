@@ -23,7 +23,7 @@
         "iconUrlSmall": "/assets/sparta_logo_small.png",
         "iconUrlMedium": "/assets/sparta_logo_med.png",
         "primaryColor": "#0062a3",
-        "startsWith": "l",
+        "startsWith": "p",
         "fallbackColor": "#de3737",
         "RGB": {
             "r": 187,
@@ -39,7 +39,7 @@
         "iconUrlSmall": "assets/hc.svg",
         "iconUrlMedium": "assets/hc.svg",
         "primaryColor": "#46f3b5",
-        "startsWith": "l",
+        "startsWith": "h",
         "fallbackColor": "#46f3b5",
         "RGB": {
             "r": 70,
@@ -89,12 +89,29 @@
         "iconUrlSmall": "assets/drakos.svg",
         "iconUrlMedium": "assets/drakos.svg",
         "primaryColor": "#effbff",
-        "startsWith": "c",
+        "startsWith": "d",
         "fallbackColor": "#effbff",
         "RGB": {
             "r": 192,
             "g": 203,
             "b": 207
+        }
+    },
+    {
+        "url": "https://github.com/strixsc/ethernaut",
+        "id": "ethernaut",
+        "name": "Ethernaut",
+        "attribution": "OpenZeppelin",
+        "summary": "Solutions to the Ethernaut Ethereum Wargame",
+        "iconUrlSmall": "assets/oz.svg",
+        "iconUrlMedium": "assets/oz.svg",
+        "primaryColor": "#4E5EE4",
+        "startsWith": "e",
+        "fallbackColor": "#4E5EE4",
+        "RGB": {
+            "r": 78,
+            "g": 94,
+            "b": 228
         }
     }
 ]

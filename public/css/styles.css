@@ -65,8 +65,13 @@ canvas {
     cursor: pointer
 }
 
+.selected-project h5 {
+    font-weight: 600;
+}
+
 .selected-project .project-summary {
-    height: 260px
+    height: 260px;
+    font-weight: 400;
 }
 
 .selected-project .project-summary img {
