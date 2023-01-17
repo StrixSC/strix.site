@@ -1,29 +1,36 @@
 [
     {
-        "url": "https://github.com/strixsc/leviathan",
-        "id": "leviathan",
-        "name": "Leviathan",
-        "summary": "Modern, minimalistic, stylish and dark Hexo theme",
-        "iconUrlSmall": "https://github.com/StrixSC/Leviathan/blob/main/source/assets/android-chrome-192x192.png?raw=true",
-        "iconUrlMedium": "https://github.com/StrixSC/Leviathan/blob/main/source/assets/android-chrome-512x512.png?raw=true",
-        "primaryColor": "#91bee8",
-        "startsWith": "l",
-        "fallbackColor": "#698fb1",
+        "url": "https://github.com/strixsc/cosmos",
+        "isMain": true,
+        "id": "cosmos",
+        "isGithubLink": true,
+        "name": "Cosmos",
+        "attribution": "Cosmos Logo Vectors by Vecteezy",
+        "summary": "EVM-based blockchain explorer",
+        "iconUrlSmall": "assets/cosmos.svg",
+        "iconUrlMedium": "assets/cosmos.svg",
+        "primaryColor": "#F8A342",
+        "startsWith": "c",
+        "textColor": "white",
+        "fallbackColor": "#F8A342",
         "RGB": {
-            "r": 57,
-            "g": 75,
-            "b": 150
+            "r": 248,
+            "g": 163,
+            "b": 66
         }
     },
     {
         "url": "https://app.pizzasparta.ca",
+        "isMain": true,
         "id": "pizzasparta",
+        "isGithubLink": false,
         "name": "Pizza Sparta",
         "summary": "Official website for Pizza Sparta, local business in Greater Montreal",
         "iconUrlSmall": "/assets/sparta_logo_small.png",
         "iconUrlMedium": "/assets/sparta_logo_med.png",
         "primaryColor": "#0062a3",
         "startsWith": "p",
+        "textColor": "white",
         "fallbackColor": "#de3737",
         "RGB": {
             "r": 187,
@@ -32,14 +39,36 @@
         }
     },
     {
+        "url": "https://github.com/strixsc/leviathan",
+        "isMain": true,
+        "id": "leviathan",
+        "isGithubLink": true,
+        "name": "Leviathan",
+        "summary": "Modern, minimalistic, stylish and dark Hexo theme",
+        "iconUrlSmall": "https://github.com/StrixSC/Leviathan/blob/main/source/assets/android-chrome-192x192.png?raw=true",
+        "iconUrlMedium": "https://github.com/StrixSC/Leviathan/blob/main/source/assets/android-chrome-512x512.png?raw=true",
+        "primaryColor": "#91bee8",
+        "startsWith": "l",
+        "textColor": "white",
+        "fallbackColor": "#698fb1",
+        "RGB": {
+            "r": 57,
+            "g": 75,
+            "b": 150
+        }
+    },
+    {
         "url": "https://github.com/strixsc/hacker-calendar",
+        "isMain": false,
         "id": "hackercalendar",
+        "isGithubLink": true,
         "name": "Hacker Calendar",
         "summary": "Google calendar port of CLIST.By programming event calendar.",
         "iconUrlSmall": "assets/hc.svg",
         "iconUrlMedium": "assets/hc.svg",
         "primaryColor": "#46f3b5",
         "startsWith": "h",
+        "textColor": "white",
         "fallbackColor": "#46f3b5",
         "RGB": {
             "r": 70,
@@ -49,13 +78,16 @@
     },
     {
         "url": "https://github.com/strixsc/snakeos",
+        "isMain": false,
         "id": "snakeos",
+        "isGithubLink": true,
         "name": "SnakeOS",
         "summary": "Classic snake game, made with less than 512 bytes.",
         "iconUrlSmall": "assets/snakeos.svg",
         "iconUrlMedium": "assets/snakeos.svg",
         "primaryColor": "#082a32",
         "startsWith": "s",
+        "textColor": "white",
         "fallbackColor": "#082a32",
         "RGB": {
             "r": 8,
@@ -64,25 +96,10 @@
         }
     },
     {
-        "url": "https://github.com/strixsc/cosmos",
-        "id": "cosmos",
-        "name": "Cosmos",
-        "attribution": "Cosmos Logo Vectors by Vecteezy",
-        "summary": "EVM-based blockchain explorer",
-        "iconUrlSmall": "assets/cosmos.svg",
-        "iconUrlMedium": "assets/cosmos.svg",
-        "primaryColor": "#F8A342",
-        "startsWith": "c",
-        "fallbackColor": "#F8A342",
-        "RGB": {
-            "r": 248,
-            "g": 163,
-            "b": 66
-        }
-    },
-    {
         "url": "https://github.com/strixsc/drakos",
+        "isMain": true,
         "id": "Drakos",
+        "isGithubLink": true,
         "name": "Drakos",
         "attribution": "Dragon Logo Vectors by Vecteezy",
         "summary": "Simple color theme for various tools",
@@ -90,6 +107,7 @@
         "iconUrlMedium": "assets/drakos.svg",
         "primaryColor": "#effbff",
         "startsWith": "d",
+        "textColor": "white",
         "fallbackColor": "#effbff",
         "RGB": {
             "r": 192,
@@ -99,7 +117,9 @@
     },
     {
         "url": "https://github.com/strixsc/ethernaut",
+        "isMain": false,
         "id": "ethernaut",
+        "isGithubLink": true,
         "name": "Ethernaut",
         "attribution": "OpenZeppelin",
         "summary": "Solutions to the Ethernaut Ethereum Wargame",
@@ -107,6 +127,7 @@
         "iconUrlMedium": "assets/oz.svg",
         "primaryColor": "#4E5EE4",
         "startsWith": "e",
+        "textColor": "white",
         "fallbackColor": "#4E5EE4",
         "RGB": {
             "r": 78,

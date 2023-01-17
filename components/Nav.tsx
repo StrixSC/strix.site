@@ -2,15 +2,16 @@ import { useEffect, useState } from 'react';
 import Logo from '@components/Logo';
 import ThemeToggleButton from '@components/ThemeToggleButton';
 import NavItem from '@components/NavItem';
+import logo from '@public/assets/logo.svg';
 
 const Nav = (props: any) => {
     const [mounted, setMounted] = useState(false);
     useEffect(() => setMounted(true), []);
     return (
-        <nav className="hidden lg:flex justify-between items-center">
-            <Logo src="https://avatars.githubusercontent.com/u/29717413?v=4"></Logo>
-            <div className="flex flex-wrap gap-8 items-center">
-                <ul className="list-none flex flex-wrap gap-4 items-center">
+        <nav className="items-center justify-between hidden lg:flex">
+            <Logo src={logo.src}></Logo>
+            <div className="flex flex-wrap items-center gap-8">
+                <ul className="flex flex-wrap items-center gap-4 list-none">
                     <li className="">
                         <NavItem text="Home" href="/"></NavItem>
                     </li>

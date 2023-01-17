@@ -1,13 +1,13 @@
-import articles from '@lib/example-blogposts.json';
+import a from '@lib/example-blogposts.json';
 import Link from 'next/link';
 import truncate from '@utils/truncate';
 import { ComponentProps } from 'react';
 
 const BlogGrid = (props?: ComponentProps<any>) => {
-    let { limit, col } = props;
+    let { featured, limit, col } = props;
     const renderArticles = () => {
-        if (limit > articles.length) {
-            limit = articles.length;
+        if (limit > a.length) {
+            limit = a.length;
         }
         const content = [];
         const classAddons: Record<string, string> = {
@@ -27,6 +27,10 @@ const BlogGrid = (props?: ComponentProps<any>) => {
             tl: 'items-start justify-start',
             m: 'items-center justify-center'
         };
+        let articles = a;
+        if (featured) {
+            articles = a.filter((a) => a.sizing === 'standard');
+        }
 
         for (let i = 0; limit ? i < limit : i < articles.length; i++) {
             const style = {
@@ -38,7 +42,7 @@ const BlogGrid = (props?: ComponentProps<any>) => {
                     href={articles[i].slug}
                     className={`w-full min-h-[288px] bg-cover xl:min-w-[288px] ${
                         classAddons[articles[i].sizing]
-                    } transition-all hover:drop-shadow-2xl hover:opacity-[0.97] `}
+                    } transition-all hover:drop-shadow-xl hover:opacity-[0.97] `}
                     style={style}
                     id={articles[i].title}>
                     <div

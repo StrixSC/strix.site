@@ -1,6 +1,4 @@
-import { ComponentProps, useEffect, useState, ReactEventHandler } from 'react';
-
-const Projects = (props?: ComponentProps<any>) => {
+const Projects = () => {
     return (
         <div className="flex justify-center">
             <iframe

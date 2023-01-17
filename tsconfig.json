@@ -21,7 +21,8 @@
             "@styles/*": ["styles/*"],
             "@utils/*": ["utils/*"],
             "@interfaces/*": ["interfaces/*"],
-            "@layouts/*": ["layouts/*"]
+            "@layouts/*": ["layouts/*"],
+            "@public/*": ["public/*"]
         }
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/ReactCircularGraph.js"],
