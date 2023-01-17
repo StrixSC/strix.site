@@ -44,6 +44,7 @@ const BlogGrid = (props?: ComponentProps<any>) => {
                         classAddons[articles[i].sizing]
                     } transition-all hover:drop-shadow-xl hover:opacity-[0.97] `}
                     style={style}
+                    title={articles[i].title}
                     id={articles[i].title}>
                     <div
                         className={`flex w-full h-full ${

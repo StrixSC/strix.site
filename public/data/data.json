@@ -12,6 +12,20 @@
         "primaryColor": "#F8A342",
         "startsWith": "c",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "svelte",
+                "name": "Svelte"
+            },
+            {
+                "slug": "ethereum",
+                "name": "Ethers"
+            },
+            {
+                "slug": "solidity",
+                "name": "Solidity"
+            }
+        ],
         "fallbackColor": "#F8A342",
         "RGB": {
             "r": 248,
@@ -31,6 +45,20 @@
         "primaryColor": "#0062a3",
         "startsWith": "p",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "angular",
+                "name": "Angular"
+            },
+            {
+                "slug": "firebase",
+                "name": "Firebase"
+            },
+            {
+                "slug": "stripe",
+                "name": "Stripe"
+            }
+        ],
         "fallbackColor": "#de3737",
         "RGB": {
             "r": 187,
@@ -50,6 +78,20 @@
         "primaryColor": "#91bee8",
         "startsWith": "l",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "hexo",
+                "name": "Hexo"
+            },
+            {
+                "slug": "tailwindcss",
+                "name": "Tailwind"
+            },
+            {
+                "slug": "gulp",
+                "name": "Gulp"
+            }
+        ],
         "fallbackColor": "#698fb1",
         "RGB": {
             "r": 57,
@@ -69,6 +111,12 @@
         "primaryColor": "#46f3b5",
         "startsWith": "h",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "typescript",
+                "name": "TypeScript"
+            }
+        ],
         "fallbackColor": "#46f3b5",
         "RGB": {
             "r": 70,
@@ -88,6 +136,16 @@
         "primaryColor": "#082a32",
         "startsWith": "s",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "qemu",
+                "name": "QEMU"
+            },
+            {
+                "slug": "assemblyscript",
+                "name": "Assembly"
+            }
+        ],
         "fallbackColor": "#082a32",
         "RGB": {
             "r": 8,
@@ -108,6 +166,20 @@
         "primaryColor": "#effbff",
         "startsWith": "d",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "gnuemacs",
+                "name": "GNU Emacs"
+            },
+            {
+                "slug": "vim",
+                "name": "Vim"
+            },
+            {
+                "slug": "gnubash",
+                "name": "Bash"
+            }
+        ],
         "fallbackColor": "#effbff",
         "RGB": {
             "r": 192,
@@ -128,6 +200,16 @@
         "primaryColor": "#4E5EE4",
         "startsWith": "e",
         "textColor": "white",
+        "tech": [
+            {
+                "slug": "solidity",
+                "name": "Solidity"
+            },
+            {
+                "slug": "ethereum",
+                "name": "Ethereum"
+            }
+        ],
         "fallbackColor": "#4E5EE4",
         "RGB": {
             "r": 78,

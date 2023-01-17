@@ -9,6 +9,7 @@ import Link from 'next/link';
 import Projects from '@components/Projects';
 import { ComponentProps } from 'react';
 import ProjectsList from '@components/ProjectsList';
+import LinksGrid from '@components/LinksGrid';
 
 const IndexPage = (props?: ComponentProps<any>) => (
     <LayoutTemplate title="Home | Strix.Site">
@@ -51,6 +52,15 @@ const IndexPage = (props?: ComponentProps<any>) => (
                         icon={faArrowRight}
                         className="text-neutral-500"></FontAwesomeIcon>
                 </Link>
+            </div>
+        </div>
+        <div id="#links">
+            <div className="flex flex-col gap-4 mt-8">
+                <Title text="Links"></Title>
+                <Subtitle className="lg:hidden" text="Find me on..."></Subtitle>
+            </div>
+            <div className="mt-8">
+                <LinksGrid></LinksGrid>
             </div>
         </div>
     </LayoutTemplate>
