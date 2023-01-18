@@ -42,7 +42,7 @@ const BlogGrid = (props?: ComponentProps<any>) => {
                     href={articles[i].slug}
                     className={`w-full min-h-[288px] bg-cover xl:min-w-[288px] ${
                         classAddons[articles[i].sizing]
-                    } transition-all hover:drop-shadow-xl hover:opacity-[0.97] `}
+                    } transition-all hover:drop-shadow-xl hover:ring-2 hover:opacity-[0.97] `}
                     style={style}
                     title={articles[i].title}
                     id={articles[i].title}>

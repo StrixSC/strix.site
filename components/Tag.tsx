@@ -1,7 +1,7 @@
 const Tag = (props: any) => {
     const { iconSrc, text } = props;
     return (
-        <div className="text-white rounded-md border-neutral-900">
+        <div className="text-white rounded-md">
             <img
                 height="20"
                 width="20"

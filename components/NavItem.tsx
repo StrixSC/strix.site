@@ -11,7 +11,7 @@ const NavItem = (props: any) => {
     return (
         <Link
             className={
-                'p-2 dark:bg-inherit rounded-lg hover:ring-2 transition-all ' +
+                'p-2 dark:bg-inherit hover:ring-2 transition-all ' +
                 cn(isActive ? 'font-semibold text-neutral-900 dark:text-white' : 'font-normal')
             }
             href={href}>

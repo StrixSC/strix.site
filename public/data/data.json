@@ -125,6 +125,31 @@
         }
     },
     {
+        "url": "https://github.com/strixsc/vb",
+        "isMain": false,
+        "id": "vb",
+        "isGithubLink": true,
+        "name": "Version Blocklets",
+        "summary": "More blocklets for i3 blocks!",
+        "iconUrlSmall": "assets/vb.svg",
+        "iconUrlMedium": "assets/vb.svg",
+        "primaryColor": "#67c976",
+        "startsWith": "v",
+        "textColor": "white",
+        "tech": [
+            {
+                "slug": "gnubash",
+                "name": "Shell"
+            }
+        ],
+        "fallbackColor": "#67c976",
+        "RGB": {
+            "r": 103,
+            "g": 201,
+            "b": 118
+        }
+    },
+    {
         "url": "https://github.com/strixsc/snakeos",
         "isMain": false,
         "id": "snakeos",

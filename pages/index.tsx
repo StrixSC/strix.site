@@ -6,7 +6,6 @@ import BlogGrid from '@components/BlogGrid';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import Projects from '@components/Projects';
 import { ComponentProps } from 'react';
 import ProjectsList from '@components/ProjectsList';
 import LinksGrid from '@components/LinksGrid';
@@ -25,7 +24,7 @@ const IndexPage = (props?: ComponentProps<any>) => (
             <div className="flex items-center justify-end pt-8">
                 <Link
                     href="/blog"
-                    className="flex items-center gap-4 p-2 transition-all rounded-md hover:cursor-pointer hover:ring-2 ">
+                    className="flex items-center gap-4 p-2 transition-all hover:cursor-pointer hover:ring-2 ">
                     <Subtitle text="See all posts"></Subtitle>
                     <FontAwesomeIcon
                         icon={faArrowRight}
@@ -46,7 +45,7 @@ const IndexPage = (props?: ComponentProps<any>) => (
             <div className="flex justify-end pt-8 itemscenter">
                 <Link
                     href="/projects"
-                    className="flex items-center gap-4 p-2 transition-all rounded-md hover:cursor-pointer hover:ring-2 ">
+                    className="flex items-center gap-4 p-2 transition-all hover:cursor-pointer hover:ring-2 ">
                     <Subtitle text="See all projects"></Subtitle>
                     <FontAwesomeIcon
                         icon={faArrowRight}
@@ -57,7 +56,7 @@ const IndexPage = (props?: ComponentProps<any>) => (
         <div id="#links">
             <div className="flex flex-col gap-4 mt-8">
                 <Title text="Links"></Title>
-                <Subtitle className="lg:hidden" text="Find me on..."></Subtitle>
+                <Subtitle text="I'm also on other parts of the internet..."></Subtitle>
             </div>
             <div className="mt-8">
                 <LinksGrid></LinksGrid>

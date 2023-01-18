@@ -24,9 +24,9 @@ const Nav = (props: any) => {
                     <li className="">
                         <NavItem text="Projects" href="/projects"></NavItem>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                         <NavItem text="Sketches" href="/sketches"></NavItem>
-                    </li>
+                    </li> */}
                     <li className="">
                         <NavItem text="Resume" href="/resume"></NavItem>
                     </li>

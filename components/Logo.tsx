@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 const Logo = (props: any) => {
     const { src, ...customMeta } = props;
