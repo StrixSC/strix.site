@@ -36,7 +36,7 @@ const ProjectsList = (props: any) => {
             content.push(
                 <div
                     key={p[i].id}
-                    className="flex items-center justify-start w-full h-full gap-2 px-3 border-2 rounded-md bg-neutral-200 dark:bg-neutral-900 hover:ring-2 border-neutral-400 dark:border-zinc-600"
+                    className="flex items-center justify-start w-full h-full gap-2 px-3 transition-all border-2 rounded-md bg-neutral-200 dark:bg-neutral-900 hover:ring-2 border-neutral-400 dark:border-zinc-600"
                     style={style}>
                     <div className="w-[50px]">
                         <img
