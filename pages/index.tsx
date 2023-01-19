@@ -13,7 +13,7 @@ import LinksGrid from '@components/LinksGrid';
 const IndexPage = (props?: ComponentProps<any>) => (
     <LayoutTemplate title="Home | Strix.Site">
         <About profileImage="https://avatars.githubusercontent.com/u/29717413?v=4"></About>
-        <div id="#blog">
+        {/* <div id="#blog">
             <div className="flex flex-col gap-4">
                 <Title text="Blog"></Title>
                 <Subtitle text="Recent blog posts"></Subtitle>
@@ -52,11 +52,11 @@ const IndexPage = (props?: ComponentProps<any>) => (
                         className="text-neutral-500"></FontAwesomeIcon>
                 </Link>
             </div>
-        </div>
+        </div> */}
         <div id="#links">
             <div className="flex flex-col gap-4 mt-8">
                 <Title text="Links"></Title>
-                <Subtitle text="I'm also on other parts of the internet..."></Subtitle>
+                {/* <Subtitle text="I'm also on other parts of the internet..."></Subtitle> */}
             </div>
             <div className="mt-8">
                 <LinksGrid></LinksGrid>

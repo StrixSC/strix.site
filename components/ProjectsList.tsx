@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import projects from '@public/data/data.json';
 import { CSSProperties } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -13,13 +13,7 @@ const Nav = (props: any) => {
             <div className="flex flex-wrap items-center gap-8">
                 <ul className="flex flex-wrap items-center gap-4 list-none">
                     <li className="">
-                        <NavItem text="Home" href="/"></NavItem>
-                    </li>
-                    <li className="">
                         <NavItem text="Blog" href="/blog"></NavItem>
-                    </li>
-                    <li className="">
-                        <NavItem text="Links" href="/links"></NavItem>
                     </li>
                     <li className="">
                         <NavItem text="Projects" href="/projects"></NavItem>

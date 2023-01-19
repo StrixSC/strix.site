@@ -11,7 +11,7 @@ const LinksGrid = (props: any) => {
                 <Link
                     key={link.name}
                     title={link.name}
-                    className="flex items-center transition-all hover:ring-2 justify-center hover:cursor-pointer w-[175px] h-[175px]"
+                    className="flex items-center transition-all hover:ring-2 justify-center hover:cursor-pointer w-[125px] h-[125px]"
                     href={link.url}>
                     <SVG src={link.src}></SVG>
                 </Link>

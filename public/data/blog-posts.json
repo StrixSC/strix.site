@@ -1,6 +1,6 @@
 [
     {
-        "slug": "blog123",
+        "slug": "ctf-2022-test-writeup",
         "title": "Defcon CTF Writeup",
         "subtitle": "Sint occaecat minim voluptate sint.",
         "image": "https://miro.medium.com/max/602/1*tydOsH44M5zHA17KaFPZFQ.png",
@@ -87,18 +87,18 @@
     {
         "slug": "blog123",
         "title": "Dragon Sector 2022 CTF Writeup",
-        "subtitle": "Sunt aliquip veniam et nulla aliqua nisi veniam est est pariatur sunt amet.",
-        "image": "https://ctftime.org/media/cache/54/76/54765423f266cd83f9ac114f2088342a.png",
+        "subtitle": "",
+        "image": "https://pbs.twimg.com/profile_images/441566442249392128/D56jRLV0_400x400.png",
         "truncate": 30,
         "sizing": "standard",
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "inherit"
+            "backgroundColor": "rgba(0, 0, 0, 0.6)"
         },
         "styling": {
-            "color": "black",
-            "backgroundColor": "white"
+            "color": "white",
+            "backgroundColor": "black"
         }
     },
     {
