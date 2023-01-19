@@ -1,0 +1,13 @@
+import LayoutTemplate from '@components/LayoutTemplate';
+import PostLayout from '@components/PostLayout';
+
+export const meta = {
+    title: 'Markdown/MDX with Next.js',
+    author: 'Nawras M. Amin'
+};
+
+# Title
+
+<small>23 Febuary 2022 </small>
+
+export default ({ children }) => <PostLayout meta={meta}>{children}</PostLayout>;

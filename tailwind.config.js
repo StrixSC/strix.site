@@ -9,9 +9,6 @@ module.exports = {
         sans: 'Inter'
     },
     darkMode: 'class',
-    variants: {
-        typography: ['dark']
-    },
     safelist: ['md:grid-cols-3', 'md:grid-cols-4', 'lg:grid-cols-3', 'lg:grid-cols-4'],
     // eslint-disable-next-line global-require
     plugins: [require('@tailwindcss/typography')]

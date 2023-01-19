@@ -1,8 +1,15 @@
-const withMDX = require('@next/mdx')({
+import remarkGfm from 'remark-gfm';
+import createMDX from '@next/mdx';
+import rehypeSlug from 'rehype-slug';
+import rehypeCodeTitles from 'rehype-code-titles';
+import remarkHighlight from 'rehype-highlight';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+
+const withMDX = createMDX({
     extension: /\.mdx?$/,
     options: {
-        remarkPlugins: [],
-        rehypePlugins: [],
+        remarkPlugins: [remarkGfm],
+        rehypePlugins: [rehypeSlug, rehypeCodeTitles, rehypeAutolinkHeadings, remarkHighlight],
         providerImportSource: '@mdx-js/react'
     }
 });
@@ -21,4 +28,4 @@ const nextConfig = {
 };
 
 // Merge MDX config with Next.js config
-module.exports = withMDX(nextConfig);
+export default withMDX(nextConfig);

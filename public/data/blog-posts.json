@@ -1,29 +1,29 @@
 [
     {
-        "slug": "ctf-2022-test-writeup",
-        "title": "Defcon CTF Writeup",
-        "subtitle": "Sint occaecat minim voluptate sint.",
-        "image": "https://miro.medium.com/max/602/1*tydOsH44M5zHA17KaFPZFQ.png",
-        "truncate": 30,
-        "sizing": "standard",
+        "slug": "hackthebox-previse",
+        "title": "HackTheBox: Previse - Writeup",
+        "subtitle": "",
+        "image": "https://www.mordeo.org/files/uploads/2016/10/Mr-Robot-Mobile-Wallpaper.jpg",
+        "truncate": 45,
+        "sizing": "tall",
         "textpos": "br",
         "ststyling": {
             "color": "white",
             "backgroundColor": "inherit"
         },
         "styling": {
-            "color": "black",
-            "backgroundColor": "white"
+            "color": "white",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)"
         }
     },
     {
-        "slug": "blog123",
-        "title": "Test CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTFTest CTF",
-        "subtitle": "Ea laborum esse aliquip pariatur sunt sunt excepteur sit nisi labore ipsum exercitation commodo nulla.",
-        "image": "https://i.ytimg.com/vi/8ev9ZX9J45A/maxresdefault.jpg",
-        "truncate": 30,
+        "slug": "hackthebox-seal",
+        "title": "HackTheBox: Seal - Writeup",
+        "subtitle": "",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c2b2bff-e3ac-4ac3-a2df-e3aaf2b1eede/d8jya2e-aa2bab77-aff4-4969-987b-5fa469573cbe.png/v1/fill/w_1024,h_576,q_80,strp/contract_seal__kuroshitsuji__minimalist_wallpaper_by_greenmapple17_d8jya2e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvOGMyYjJiZmYtZTNhYy00YWMzLWEyZGYtZTNhYWYyYjFlZWRlXC9kOGp5YTJlLWFhMmJhYjc3LWFmZjQtNDk2OS05ODdiLTVmYTQ2OTU3M2NiZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vzY_pGAoQzVGt644MvtMCd4NeRqSAUO0lZEwJddFSxY",
+        "truncate": 45,
         "sizing": "standard",
-        "textpos": "bl",
+        "textpos": "br",
         "ststyling": {
             "color": "white",
             "backgroundColor": "rgba(0, 0, 0, 0.7)"
@@ -34,10 +34,10 @@
         }
     },
     {
-        "slug": "blog123",
-        "title": "PicoCTF 2022",
-        "subtitle": "Aliquip aliquip sint occaecat veniam proident amet irure aliqua officia dolore fugiat.",
-        "image": "https://images1.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg",
+        "slug": "hackthebox-thenotebook",
+        "title": "HackTheBox: TheNotebook - Writeup",
+        "subtitle": "",
+        "image": "https://p4.wallpaperbetter.com/wallpaper/821/93/270/background-blank-book-creative-wallpaper-preview.jpg",
         "truncate": 30,
         "sizing": "standard",
         "textpos": "m",
@@ -51,13 +51,13 @@
         }
     },
     {
-        "slug": "blog123",
-        "title": "Hack.LU 2020 CTF Writeup",
-        "subtitle": "Voluptate ea id occaecat veniam exercitation id ad sit occaecat.",
-        "image": "https://miro.medium.com/max/1000/1*CiZnQmZMhjZTEjNZ-W2ksw.png",
+        "slug": "hackthebox-jerry",
+        "title": "HackTheBox: Jerry - Writeup",
+        "subtitle": "",
+        "image": "https://images1.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg",
         "truncate": 30,
         "sizing": "wide",
-        "textpos": "br",
+        "textpos": "tl",
         "ststyling": {
             "color": "white",
             "backgroundColor": "inherit"
@@ -68,10 +68,10 @@
         }
     },
     {
-        "slug": "blog123",
-        "title": "Volga CTF 2022 Writeup",
-        "subtitle": "Sit sunt laboris id in esse non dolore minim.",
-        "image": "https://ctftime.org/media/cache/94/00/94009071bea1a71f078cce049aac33ff.png",
+        "slug": "hackthebox-cap",
+        "title": "HackTheBox: Cap",
+        "subtitle": "Writeup",
+        "image": "https://cdn.dribbble.com/users/612952/screenshots/14465616/media/07e141c1d34082507df3a6ac97b86dcb.jpg?compress=1&resize=800x600&vertical=top",
         "truncate": 30,
         "sizing": "standard",
         "textpos": "bl",
@@ -81,17 +81,17 @@
         },
         "styling": {
             "color": "black",
-            "backgroundColor": "white"
+            "backgroundColor": "#dff0d8"
         }
     },
     {
-        "slug": "blog123",
-        "title": "Dragon Sector 2022 CTF Writeup",
+        "slug": "hackthebox-lame",
+        "title": "HackTheBox: Lame - Writeup",
         "subtitle": "",
-        "image": "https://pbs.twimg.com/profile_images/441566442249392128/D56jRLV0_400x400.png",
+        "image": "https://wallpaperaccess.com/full/7072857.jpg",
         "truncate": 30,
         "sizing": "standard",
-        "textpos": "br",
+        "textpos": "tl",
         "ststyling": {
             "color": "white",
             "backgroundColor": "rgba(0, 0, 0, 0.6)"
@@ -102,16 +102,51 @@
         }
     },
     {
-        "slug": "blog123",
-        "title": "ThinkSecurity 2022 CTF Writeup",
-        "subtitle": "Sunt nisi laborum consectetur voluptate labore aute irure.",
-        "image": "https://ctftime.org/media/cache/b8/4e/b84e159137bd1f47300792185bf7c82e.png",
+        "slug": "24h-ctf-2021-writeup",
+        "title": "24hCTF-2021",
+        "subtitle": "Writeup",
+        "image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AFDK6gNwxtOOp3HnGKmOgN3kre1Dtotxnmq6wqc7FaqwM9kFZem06dveoEtCeZ8LwN9KbPo8NHNHCjJBXG6S_43uJcyRWyakwg=w1920-h981",
         "truncate": 30,
         "sizing": "standard",
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "inherit"
+            "backgroundColor": "rgba(0, 0, 0, 0.7)",
+            "width": "100%"
+        },
+        "styling": {
+            "color": "black",
+            "backgroundColor": "white"
+        }
+    },
+    {
+        "slug": "cybersci-regionals-2021",
+        "title": "CyberSci Regionals 2021",
+        "subtitle": "Writeup of Bastion and Recon",
+        "image": "https://pbs.twimg.com/profile_images/1391952886456848385/3F9gFrYt_400x400.jpg",
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "tr",
+        "ststyling": {
+            "color": "white",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)"
+        },
+        "styling": {
+            "color": "black",
+            "backgroundColor": "#ed3740"
+        }
+    },
+    {
+        "slug": "overthewire-bandit",
+        "title": "OverTheWire's Bandit",
+        "subtitle": "Complete and thorough Writeup",
+        "image": "https://i.pinimg.com/originals/38/54/79/385479eec77202bf8d9827c8514f508f.png",
+        "truncate": 30,
+        "sizing": "standard",
+        "textpos": "bl",
+        "ststyling": {
+            "color": "black",
+            "backgroundColor": "white"
         },
         "styling": {
             "color": "black",

@@ -1,7 +1,18 @@
-import Link from 'next/link';
+import { MDXProvider } from '@mdx-js/react';
+import LayoutTemplate from '@components/LayoutTemplate';
 
-const Logo = ({ children }) => {
-    return <article className="prose lg:prose-xl">{children}</article>;
+const PostLayout = ({ meta, children }) => {
+    return (
+        <LayoutTemplate title={meta.title}>
+            <MDXProvider>
+                <div className="flex justify-center gap-2 mt-24">
+                    <article className="w-full prose lg:prose-xl dark:prose-invert">
+                        {children}
+                    </article>
+                </div>
+            </MDXProvider>
+        </LayoutTemplate>
+    );
 };
 
-export default Logo;
+export default PostLayout;

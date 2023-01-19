@@ -40,7 +40,7 @@ const BlogGrid = (props?: ComponentProps<any>) => {
                 <Link
                     key={i}
                     href={'/posts/' + articles[i].slug}
-                    className={`w-full min-h-[288px] bg-cover xl:min-w-[288px] ${
+                    className={`w-full min-h-[288px] bg-cover bg-center xl:min-w-[288px] ${
                         classAddons[articles[i].sizing]
                     } transition-all hover:drop-shadow-xl hover:ring-2 hover:opacity-[0.97] `}
                     style={style}

@@ -7,9 +7,9 @@ import Nav from './Nav';
 const LayoutTemplate = (props: any) => {
     const { children, ...customMeta } = props;
     const meta = {
-        title: 'Default Title: Change Me',
-        description: 'Default Description: Change Me',
-        image: '#',
+        title: 'Home | Strix.Site',
+        description: '',
+        image: '',
         type: 'website',
         ...customMeta
     };
@@ -17,7 +17,7 @@ const LayoutTemplate = (props: any) => {
     return (
         <div className="w-full h-full px-12 mx-auto my-12 text-lg lg:w-full xl:p-0 xl:w-2/3">
             <Head>
-                <title>{`${meta.title}`} </title>
+                <title key="title">{`${meta.title}`} </title>
                 <meta name="robots" content="follow, index" />
                 <meta content={meta.description} name="description" />
                 <meta property="og:url" content={`https://strix.site${router.asPath}`} />
