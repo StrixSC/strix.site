@@ -30,7 +30,7 @@ const ProjectsList = (props: any) => {
             let tags = [];
 
             for (let tech of p[i].tech) {
-                tags.push(<Tag iconSrc={tech.slug} text={tech.name}></Tag>);
+                tags.push(<Tag key={tech.slug} iconSrc={tech.slug} text={tech.name}></Tag>);
             }
             content.push(
                 <div

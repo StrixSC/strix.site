@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
+import Footer from './Footer';
 import MobileNav from './MobileNav';
 import Nav from './Nav';
 
@@ -15,7 +16,7 @@ const LayoutTemplate = (props: any) => {
     };
     const router = useRouter();
     return (
-        <div className="w-full h-full px-12 mx-auto my-12 text-lg lg:w-full xl:p-0 xl:w-2/3">
+        <div className="w-full h-full px-12 mx-auto my-12 text-lg lg:w-full xl:p-0 xl:w-9/12">
             <Head>
                 <title key="title">{`${meta.title}`}</title>
                 <meta name="robots" content="follow, index" />
@@ -38,7 +39,11 @@ const LayoutTemplate = (props: any) => {
                 <MobileNav></MobileNav>
                 <Nav></Nav>
             </nav>
-            <main className="">{children}</main>
+            <main className="my-24">{children}</main>
+            <hr className="my-8"></hr>
+            <footer>
+                <Footer></Footer>
+            </footer>
         </div>
     );
 };

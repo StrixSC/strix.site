@@ -4,7 +4,7 @@ import Title from '@components/Title';
 const BlogPage = () => {
     return (
         <LayoutTemplate title="Blog | Strix.Site">
-            <div className="flex flex-col gap-8 mt-16 wrap">
+            <div className="flex flex-col gap-8 wrap">
                 <div>
                     <Title text="Blog"></Title>
                 </div>

@@ -5,7 +5,7 @@ import Title from '@components/Title';
 const ProjectsPage = () => {
     return (
         <LayoutTemplate title="Portfolio & Projects | Strix.Site">
-            <div className="flex flex-col gap-8 mt-16 wrap">
+            <div className="flex flex-col gap-8 wrap">
                 <div>
                     <Title text="Portfolio & Projects"></Title>
                 </div>

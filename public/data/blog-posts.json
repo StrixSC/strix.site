@@ -1,42 +1,42 @@
 [
     {
         "slug": "hackthebox-previse",
-        "title": "HackTheBox: Previse - Writeup",
-        "subtitle": "",
+        "title": "HackTheBox: Previse",
+        "subtitle": "Writeup",
         "image": "https://i.pinimg.com/736x/42/e7/67/42e767d54e2c84de141654e6c5a5249d.jpg",
         "truncate": 45,
         "sizing": "standard",
-        "textpos": "br",
+        "textpos": "bl",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "inherit"
+            "backgroundColor": "#000000dd"
         },
         "styling": {
             "color": "white",
-            "backgroundColor": "rgba(0, 0, 0, 0.6)"
+            "backgroundColor": "#000000dd"
         }
     },
     {
         "slug": "hackthebox-seal",
-        "title": "HackTheBox: Seal - Writeup",
-        "subtitle": "",
+        "title": "HackTheBox: Seal",
+        "subtitle": "Writeup",
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c2b2bff-e3ac-4ac3-a2df-e3aaf2b1eede/d8jya2e-aa2bab77-aff4-4969-987b-5fa469573cbe.png/v1/fill/w_1024,h_576,q_80,strp/contract_seal__kuroshitsuji__minimalist_wallpaper_by_greenmapple17_d8jya2e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvOGMyYjJiZmYtZTNhYy00YWMzLWEyZGYtZTNhYWYyYjFlZWRlXC9kOGp5YTJlLWFhMmJhYjc3LWFmZjQtNDk2OS05ODdiLTVmYTQ2OTU3M2NiZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vzY_pGAoQzVGt644MvtMCd4NeRqSAUO0lZEwJddFSxY",
         "truncate": 45,
         "sizing": "standard",
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "rgba(0, 0, 0, 0.7)"
+            "backgroundColor": "#000000dd"
         },
         "styling": {
             "color": "white",
-            "backgroundColor": "black"
+            "backgroundColor": "#7c794e"
         }
     },
     {
         "slug": "hackthebox-thenotebook",
-        "title": "HackTheBox: TheNotebook - Writeup",
-        "subtitle": "",
+        "title": "HackTheBox: TheNotebook",
+        "subtitle": "Writeup",
         "image": "https://p4.wallpaperbetter.com/wallpaper/821/93/270/background-blank-book-creative-wallpaper-preview.jpg",
         "truncate": 30,
         "sizing": "standard",
@@ -46,14 +46,14 @@
             "backgroundColor": "inherit"
         },
         "styling": {
-            "color": "black",
-            "backgroundColor": "white"
+            "color": "white",
+            "backgroundColor": "#8dbaadCC"
         }
     },
     {
         "slug": "hackthebox-jerry",
-        "title": "HackTheBox: Jerry - Writeup",
-        "subtitle": "",
+        "title": "HackTheBox: Jerry",
+        "subtitle": "Writeup",
         "image": "https://images1.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg",
         "truncate": 30,
         "sizing": "wide",
@@ -64,7 +64,7 @@
         },
         "styling": {
             "color": "black",
-            "backgroundColor": "white"
+            "backgroundColor": "#6463ae"
         }
     },
     {
@@ -77,7 +77,7 @@
         "textpos": "bl",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "rgba(0, 0, 0, 0.6)"
+            "backgroundColor": "#000000aa"
         },
         "styling": {
             "color": "black",
@@ -86,19 +86,19 @@
     },
     {
         "slug": "hackthebox-lame",
-        "title": "HackTheBox: Lame - Writeup",
-        "subtitle": "",
+        "title": "HackTheBox: Lame",
+        "subtitle": "Writeup",
         "image": "https://wallpaperaccess.com/full/7072857.jpg",
         "truncate": 30,
         "sizing": "standard",
         "textpos": "tl",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "rgba(0, 0, 0, 0.6)"
+            "backgroundColor": "#000000aa"
         },
         "styling": {
             "color": "white",
-            "backgroundColor": "black"
+            "backgroundColor": "#7426f8"
         }
     },
     {
@@ -111,12 +111,12 @@
         "textpos": "br",
         "ststyling": {
             "color": "white",
-            "backgroundColor": "rgba(0, 0, 0, 0.7)",
+            "backgroundColor": "#000000af",
             "width": "100%"
         },
         "styling": {
             "color": "black",
-            "backgroundColor": "white"
+            "backgroundColor": "#c250f1"
         }
     },
     {
@@ -133,7 +133,7 @@
         },
         "styling": {
             "color": "black",
-            "backgroundColor": "#ed3740"
+            "backgroundColor": "#905a92"
         }
     },
     {
@@ -150,7 +150,7 @@
         },
         "styling": {
             "color": "black",
-            "backgroundColor": "white"
+            "backgroundColor": "#cc9398"
         }
     }
 ]
