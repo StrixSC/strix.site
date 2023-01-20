@@ -12,7 +12,6 @@ const LayoutTemplate = (props: any) => {
         type: 'website',
         ...customMeta
     };
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const router = useRouter();
     return (
