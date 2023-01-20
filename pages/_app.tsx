@@ -4,7 +4,7 @@ import { ThemeProvider } from 'next-themes';
 import { Inter } from '@next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
-const inter = Inter();
+const inter = Inter({ subsets: ['latin'] });
 
 const MyApp = ({ Component, pageProps }): any => {
     return (

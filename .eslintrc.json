@@ -1,4 +1,0 @@
-{
-  "extends": ["plugin:react/recommended", "plugin:@next/next/recommended", "airbnb", "prettier"],
-  "plugins": ["react", "prettier"]
-}
