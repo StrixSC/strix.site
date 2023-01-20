@@ -20,6 +20,7 @@
         "gray-matter": "^4.0.3",
         "next": "latest",
         "react": "^18.2.0",
+        "react-burger-menu": "^3.0.9",
         "react-dom": "^18.2.0",
         "react-inlinesvg": "^3.0.1",
         "rehype-autolink-headings": "^6.1.1",
@@ -27,7 +28,8 @@
         "rehype-highlight": "^6.0.0",
         "rehype-slug": "^5.1.0",
         "remark-gfm": "^3.0.1",
-        "sass": "^1.57.1"
+        "sass": "^1.57.1",
+        "use-delayed-render": "^0.0.7"
     },
     "devDependencies": {
         "@types/node": "^12.12.21",

@@ -1,10 +1,8 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import Footer from './Footer';
-import MobileNav from './MobileNav';
-import Nav from './Nav';
-
+import Footer from '@components/Footer';
+import Nav from '@components/Nav';
 const LayoutTemplate = (props: any) => {
     const { children, ...customMeta } = props;
     const meta = {
@@ -14,9 +12,13 @@ const LayoutTemplate = (props: any) => {
         type: 'website',
         ...customMeta
     };
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
     const router = useRouter();
     return (
-        <div className="w-full h-full px-12 mx-auto my-12 text-lg lg:w-full xl:p-0 xl:w-9/12">
+        <div
+            id="layout-container"
+            className="w-full h-full px-12 mx-auto my-12 text-lg lg:w-full xl:p-0 xl:w-9/12">
             <Head>
                 <title key="title">{`${meta.title}`}</title>
                 <meta name="robots" content="follow, index" />
@@ -36,7 +38,6 @@ const LayoutTemplate = (props: any) => {
                 {meta.date && <meta property="article:published_time" content={meta.date} />}
             </Head>
             <nav>
-                <MobileNav></MobileNav>
                 <Nav></Nav>
             </nav>
             <main className="my-24">{children}</main>
