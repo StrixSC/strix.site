@@ -1,20 +1,25 @@
 import d from '@public/data/links.json';
 import Link from 'next/link';
-import SVG from 'react-inlinesvg';
+import { CSSProperties } from 'react';
 
-const LinksGrid = (props: any) => {
+const LinksGrid = () => {
     const renderLinks = () => {
         const content = [];
         let data = d.sort((x, y) => x.order - y.order);
         for (let link of data) {
+            const style = {
+                backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(link.src)}")`,
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'contain'
+            } as CSSProperties;
             content.push(
                 <Link
                     key={link.name}
                     title={link.name}
+                    style={style}
                     className="flex items-center transition-all hover:ring-2 justify-center hover:cursor-pointer w-[125px] h-[125px]"
-                    href={link.url}>
-                    <SVG src={link.src}></SVG>
-                </Link>
+                    href={link.url}></Link>
             );
         }
         return content;
