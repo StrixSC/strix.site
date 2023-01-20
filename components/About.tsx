@@ -59,8 +59,8 @@ const About = (props: any) => {
                         </Link>
                     </span>
                     , I'm a software engineering student here in Montréal at the École Polytechnique
-                    de Montréal. I hold a strong background in full-stack development, as well as
-                    security engineering and blockchain development.
+                    de Montréal. I hold a strong background in full-stack development, as well as in
+                    cybersecurity engineering and blockchain development.
                     <br></br>
                     <br></br>
                     On this blog, you can expect to find posts containing write-ups and solutions to{' '}
