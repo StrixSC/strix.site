@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import Script from 'next/script';
 import Footer from '@components/Footer';
 import Nav from '@components/Nav';
 const LayoutTemplate = (props: any) => {
@@ -35,6 +35,9 @@ const LayoutTemplate = (props: any) => {
                 <meta name="twitter:description" content={meta.description} />
                 <meta name="twitter:image" content={meta.image} />
                 {meta.date && <meta property="article:published_time" content={meta.date} />}
+                <Script
+                    strategy="beforeInteractive"
+                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}></Script>
             </Head>
             <nav>
                 <Nav></Nav>
