@@ -6,18 +6,13 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-import { GoogleAnalytics } from 'nextjs-google-analytics';
-
 const MyApp = ({ Component, pageProps }): any => {
     return (
-        <>
-            <GoogleAnalytics trackPageViews={{ ignoreHashChange: true }} />
-            <ThemeProvider attribute="class">
-                <main className={inter.className}>
-                    <Component {...pageProps} />
-                </main>
-            </ThemeProvider>
-        </>
+        <ThemeProvider attribute="class">
+            <main className={inter.className}>
+                <Component {...pageProps} />
+            </main>
+        </ThemeProvider>
     );
 };
 
