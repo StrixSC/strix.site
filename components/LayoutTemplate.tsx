@@ -35,9 +35,8 @@ const LayoutTemplate = (props: any) => {
                 <meta name="twitter:description" content={meta.description} />
                 <meta name="twitter:image" content={meta.image} />
                 {meta.date && <meta property="article:published_time" content={meta.date} />}
-                <Script
-                    strategy="beforeInteractive"
-                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}></Script>
+                <script
+                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}></script>
             </Head>
             <nav>
                 <Nav></Nav>
