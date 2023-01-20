@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const dictionary = {
@@ -49,9 +50,17 @@ const About = (props: any) => {
                 </h3>
 
                 <p className="mt-8 text-xl text-justify text-zinc-800 dark:text-zinc-400">
-                    My name is Nawras, I'm software engineering student here in Montréal at the
-                    École Polytechnique de Montréal. I hold a strong background in full-stack
-                    development, as well as security engineering and blockchain engineering.
+                    My name is Nawras{' '}
+                    <span>
+                        <Link
+                            className="underline"
+                            href="https://www.youtube.com/watch?v=3rkUbeGAwOY">
+                            (/nɔ:ræs/)
+                        </Link>
+                    </span>
+                    , I'm a software engineering student here in Montréal at the École Polytechnique
+                    de Montréal. I hold a strong background in full-stack development, as well as
+                    security engineering and blockchain development.
                     <br></br>
                     <br></br>
                     On this blog, you can expect to find posts containing write-ups and solutions to{' '}
