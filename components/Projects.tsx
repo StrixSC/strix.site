@@ -4,7 +4,7 @@ const Projects = () => {
             <iframe
                 id="iframe"
                 className="rounded-full flex justify-center w-[750px]  h-[750px]"
-                src="http://localhost:3000/graph.html"></iframe>
+                src="/graph.html"></iframe>
         </div>
     );
 };
