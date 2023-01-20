@@ -1,0 +1,256 @@
+body {
+    font-size: 1em;
+    font-family: Georgia, serif;
+    color: #222;
+    line-height: 1.5;
+    padding: 2em 0;
+  }
+  
+  .resume {
+    max-width: 50em;
+    padding: 0 2em;
+    margin: 0 auto;
+    position: relative;
+  }
+    .resume a { color: #0C6FA9; }
+    .resume .name {
+      font-size: 3.2em;
+      margin-top: 0;
+      color: #0C6FA9;
+      font-weight: normal;
+      font-family: Bitter, Georgia, serif;
+    }
+      .resume .headline {
+        display: block;
+        font-size: .5em;
+        color: #444;
+      }
+    .resume .section {
+      clear: both;
+      overflow: hidden;
+      padding-bottom: 2em;
+    }
+      .resume .section:last-child { padding-bottom: 0; }
+      .resume .contact + .section { padding-top: 1em; }
+      .resume .section.page-break { padding-bottom: 0; page-break-before: always; }
+      .resume .section h2 {
+        float: left;
+        width: 20%;
+        text-align: right;
+        font-weight: normal;
+        font-family: Bitter, Georgia, serif;
+        color: #0C6FA9;
+        margin: 0;
+      }
+      .resume .section > .content {
+        margin-left: 20%;
+        padding-left: 2em;
+        padding-top: .3em;
+      }
+        .resume .section > .content p:first-child { margin-top: 0; }
+        .resume .section > .content p:last-child { margin-bottom: 0; }
+  
+      .resume .contact {
+        color: #555;
+      }
+        .resume .contact > .content {
+          margin-left: 0;
+          padding-left: 0;
+          padding-top: 0;
+          font-size: .8em;
+          font-family: sans-serif;
+        }
+        .contact .content > div {
+          overflow: hidden;
+        }
+        .contact h2 { display: none; }
+        .contact .label {
+          float: left;
+          width: 5em;
+          margin-right: 1em;
+          text-align: right;
+          color: #BBB;
+          vertical-align: top;
+        }
+        .contact span.content {
+          float: left;
+        }
+          .main-address .content { white-space: pre; }
+    .listing { }
+      .resume .listing .content > div + div {
+        margin-top: 1.2em;
+      }
+      .listing-title {
+        line-height: 1.4;
+        font-size: 1.1em;
+        font-family: Bitter, Georgia, serif;
+      }
+      .listing-type {
+        color: #666;
+        font-family: Bitter, Georgia, serif;
+        font-size: .9em;
+      }
+      .listing .dates,
+      .listing-stats {
+        font-family: sans-serif;
+        font-size: .8em;
+        line-height: 2;
+        color: #888;
+      }
+        .listing .grouped .dates { display: none; }
+        .listing .grouped .count {
+          display: block;
+          cursor: crosshair;
+      font-weight: bold;
+      font-size: 1em;
+          color: #0C6FA9;
+        }
+      .listing-stats {
+        font-weight: bold;
+        float: right;
+      }
+      .listing-description {
+        padding: .5em 1em;
+        margin: 1em .5em 0;
+        max-width: 30em;
+        background: #F7F7F7;
+        color: #444;
+      }
+    .hobbies-list {
+      list-style-type: none;
+      clear: both;
+      padding: 0;
+      padding-top: .5em;
+      page-break-inside: avoid;
+    }
+      .hobby {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: .5em 1em;
+        margin: 1em .5em 0;
+        max-width: 30em;
+        background: #F7F7F7;
+      }
+  
+  @media print, (min-width:45em) {
+    .resume .name {
+      margin-right: 40%;
+    }
+    .resume .contact {
+      position: absolute;
+      top: 1em;
+      right: 2em;
+      clear: none;
+      color: #555;
+      width: 40%;
+      padding-bottom: 0;
+    }
+      .contact .label {
+        float: right;
+        margin-right: 0;
+        margin-left: 1em;
+        text-align: left;
+      }
+      .contact span.content {
+        text-align: right;
+        float: right;
+      }
+    .hobby {
+      float: left;
+      width: 33%;
+      margin: 0;
+      max-width: auto;
+      padding: .5em 3%;
+      border-right: 3px solid white;
+      border-bottom: 3px solid white;
+    }
+    .listing .dates {
+      margin-top: -2em;
+      float: right;
+    }
+    .listing-stats {
+      margin-top: -.2em;
+    }
+  }
+  @media print, (max-width:60em) {
+    .resume .section h2 {
+      float: none;
+      width: auto;
+      text-align: left;
+      margin: 0;
+    }
+    .resume .section > .content {
+      margin-left: 0;
+      padding-left: 1em;
+    }
+    .resume .section {
+      padding-bottom: 1em;
+    }
+    .hobbies-list {
+      padding-top: 0;
+      margin: 0;
+    }
+  }
+  @media print {
+    .resume .name {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+    .resume .headline {
+      display: "none";
+    }
+    .resume .contact + .section {
+      padding-top: 0;
+    }
+    .resume .section h2 {
+      font-size: 1em;
+      margin-top: 1em;
+    }
+    .resume .section {
+      padding-bottom: 0;
+    }
+    .resume .listing .content > div + div {
+      margin-top: 0.5em;
+    }
+    .listing-title {
+      font-size: 1em;
+      color: black;
+    }
+    .listing-type {
+      font-size: .8em;
+    }
+    .listing-description {
+      padding: .5em;
+      margin: 0;
+      max-width: 100%;
+    }
+    .resume .listing .content a {
+      text-decoration: none;
+    }
+    .resume .listing .content a::after {
+      content: " (" attr(href) ")";
+    }
+    .resume .content .position {
+      page-break-inside: avoid;
+    }
+  }
+  @media screen and (max-width: 60em) {
+    .resume { padding: 0; }
+    .resume .contact > .content { font-size: 1em; }
+    .listing-description {
+      padding: .5em 1em;
+      margin: 1em 0 0;
+    }
+    body { padding: 1em; }
+    .resume .section > .content {
+      padding-left: 0em;
+    }
+  }
+  @media print {
+    body { padding: 0; }
+  }
+  
+  @page {
+    size: auto;
+    margin: 15mm 5mm;
+  }

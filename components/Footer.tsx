@@ -37,6 +37,7 @@ const Footer = () => {
             <div className="mt-2 text-center">(Click to copy)</div>
             <br></br>
             <div className="text-center">Blog inspired by Portswigger</div>
+            <div className="text-center">CV by Jon Gjengset</div>
             <div className="text-center">
                 Icons by{' '}
                 <Link href="https://simpleicons.org/" className="underline decoration-dotted">

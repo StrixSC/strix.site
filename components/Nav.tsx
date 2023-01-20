@@ -27,7 +27,7 @@ const Nav = (props: any) => {
                             <NavItem text="Projects" href="/projects"></NavItem>
                         </li>
                         <li className="">
-                            <NavItem text="Resume" href="/resume"></NavItem>
+                            <NavItem text="Resume" href="/resume.html"></NavItem>
                         </li>
                     </ul>
                     {mounted && <ThemeToggleButton></ThemeToggleButton>}
@@ -41,9 +41,9 @@ const Nav = (props: any) => {
                             className="w-6 h-6 text-gray-500"
                             x-show="!showMenu"
                             fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path d="M4 6h16M4 12h16M4 18h16"></path>
@@ -76,7 +76,7 @@ const Nav = (props: any) => {
                     </li>
                     <li>
                         <Link
-                            href="cv"
+                            href="resume.html"
                             className="block px-2 py-4 text-sm transition duration-300 ">
                             Resume
                         </Link>
