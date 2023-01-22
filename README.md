@@ -1,6 +1,8 @@
 # strix.site
 
+
 ## Stack
+<img src="public/assets/logo.svg" alt="Logo Strix.Site" width="15%" align="right" />
 
 - [Next.js](https://nextjs.org/)
 - [Vercel](https://vercel.com)
