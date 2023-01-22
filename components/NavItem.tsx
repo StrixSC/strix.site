@@ -8,16 +8,28 @@ const NavItem = (props: any) => {
     const { href, text } = props;
     const isActive = router.asPath === href;
 
-    return (
-        <Link
-            className={
-                'p-2 dark:bg-inherit hover:ring-2 transition-all ' +
-                cn(isActive ? 'font-semibold text-neutral-900 dark:text-white' : 'font-normal')
-            }
-            href={href}>
-            {text}
-        </Link>
-    );
+    if (href) {
+        return (
+            <Link
+                className={
+                    'p-2 dark:bg-inherit hover:ring-2 transition-all ' +
+                    cn(isActive ? 'font-semibold text-neutral-900 dark:text-white' : 'font-normal')
+                }
+                href={href}>
+                {text}
+            </Link>
+        );
+    } else {
+        return (
+            <div
+                className={
+                    'cursor-pointer p-2 dark:bg-inherit hover:ring-2 transition-all ' +
+                    cn(isActive ? 'font-semibold text-neutral-900 dark:text-white' : 'font-normal')
+                }>
+                {text}
+            </div>
+        );
+    }
 };
 
 export default NavItem;

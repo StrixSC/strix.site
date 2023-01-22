@@ -1,38 +1,13 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-
-const dictionary = {
-    0: ['Build', 'Construct', 'Create', 'Develop', 'Fabricate', 'Assemble'],
-    1: [
-        'Invert',
-        'Reverse',
-        'Decompile',
-        'Reverse-engineer',
-        'Unravel',
-        'Deconstruct',
-        'Disassemble',
-        'Disrupt',
-        'Break',
-        'Crack',
-        'Shatter',
-        'Hack',
-        'Teardown'
-    ],
-    2: ['Innovate', 'Pioneer', 'Progress', 'Invent', 'Imagine', 'Originate', 'Create', 'Trailblaze']
-};
+import Tagline from './Tagline';
 
 const About = (props: any) => {
     const { profileImage } = props;
     const [isMounted, setMounted] = useState(false);
-    useEffect(() => setMounted(true));
-
-    const renderTagLine = () => {
-        let tagline = '';
-        tagline += `${dictionary[0][Math.floor(Math.random() * dictionary[0].length)]}. `;
-        tagline += `${dictionary[1][Math.floor(Math.random() * dictionary[1].length)]}. `;
-        tagline += `${dictionary[2][Math.floor(Math.random() * dictionary[2].length)]}. `;
-        return tagline;
-    };
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     return (
         <div className="flex flex-col flex-wrap items-center justify-between gap-8 my-20 lg:gap-0 md:flex-row">
@@ -46,7 +21,7 @@ const About = (props: any) => {
                     Nawras M.A.
                 </h1>
                 <h3 className="text-2xl dark:text-zinc-500 text-zinc-600">
-                    {isMounted && renderTagLine()}
+                    {isMounted && <Tagline></Tagline>}
                 </h3>
 
                 <p className="mt-8 text-xl text-justify text-zinc-800 dark:text-zinc-400">
