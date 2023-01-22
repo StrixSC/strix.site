@@ -3,6 +3,7 @@ import Logo from '@components/Logo';
 import ThemeToggleButton from '@components/ThemeToggleButton';
 import NavItem from '@components/NavItem';
 import logo from '@public/assets/logo.svg';
+import CVButton from './CVButton';
 
 const Nav = (props: any) => {
     const [mounted, setMounted] = useState(false);
@@ -26,9 +27,10 @@ const Nav = (props: any) => {
                             <NavItem text="Projects" href="/projects"></NavItem>
                         </li>
                         <li className="">
-                            <NavItem text="Resume" href="/resume.html"></NavItem>
+                            <CVButton></CVButton>
                         </li>
                     </ul>
+
                     {mounted && <ThemeToggleButton></ThemeToggleButton>}
                 </div>
                 <div className="flex items-center gap-4 md:hidden">
@@ -59,7 +61,7 @@ const Nav = (props: any) => {
                         <NavItem text="Projects" href="/projects"></NavItem>
                     </li>
                     <li>
-                        <NavItem text="Resume" href="/resume.html"></NavItem>
+                        <CVButton></CVButton>
                     </li>
                 </ul>
             </div>
