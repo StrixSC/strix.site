@@ -40,8 +40,7 @@ const About = (props: any) => {
                     <br></br>
                     On this blog, you can expect to find posts containing write-ups and solutions to{' '}
                     <abbr title="Capture the Flag">CTFs</abbr>, algorithmic problems, programming
-                    competitions and some other stuff. This site is still in development, so if
-                    there are any issues, letting me know would be a great help!
+                    competitions and some other stuff.
                 </p>
             </div>
         </div>
