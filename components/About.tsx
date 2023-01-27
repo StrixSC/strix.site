@@ -33,9 +33,9 @@ const About = (props: any) => {
                             (/nɔ:ræs/)
                         </Link>
                     </span>
-                    , I'm a software engineering student here in Montréal at the École Polytechnique
-                    de Montréal. I hold a strong background in full-stack development, as well as in
-                    cybersecurity engineering and blockchain development.
+                    , I'm a software engineering student at the École Polytechnique of Montréal. I
+                    have a strong background in full-stack development and blockchain development,
+                    as well as in cybersecurity engineering.
                     <br></br>
                     <br></br>
                     On this blog, you can expect to find posts containing write-ups and solutions to{' '}
