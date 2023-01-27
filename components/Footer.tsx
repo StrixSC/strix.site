@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     const ethAddress = '0x0fd87671E7eFcAbEB4Cdef187eEE918453EA7b71';
-    const btcAddress = '0x0fd87671E7eFcAbEB4Cdef187eEE918453EA7b71';
+    const btcAddress = 'bitcoin:bc1qcq6r80uh7vr3z8hgg4mgp8taueqgcncvemukz8';
     const copy = () => {
         navigator.clipboard.writeText(ethAddress);
     };
