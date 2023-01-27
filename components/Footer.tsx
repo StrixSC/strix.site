@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     const ethAddress = '0x0fd87671E7eFcAbEB4Cdef187eEE918453EA7b71';
-    const btcAddress = 'bitcoin:bc1qcq6r80uh7vr3z8hgg4mgp8taueqgcncvemukz8';
+    const btcAddress = 'bc1qcq6r80uh7vr3z8hgg4mgp8taueqgcncvemukz8';
     const copy = () => {
         navigator.clipboard.writeText(ethAddress);
     };
@@ -20,7 +20,7 @@ const Footer = () => {
                     data-href={`bitcoin:${btcAddress}`}
                     className="underline decoration-dotted hover:cursor-pointer hover:text-black dark:hover:text-white hover:decoration-solid"
                     onClick={() => {
-                        navigator.clipboard.writeText(btcAddress);
+                        navigator.clipboard.writeText(`bitcoin:${btcAddress}`);
                     }}>
                     {btcAddress.substring(0, 16)}... <abbr title="Bitcoin">(BTC)</abbr>
                 </div>
