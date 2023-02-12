@@ -10,4 +10,4 @@
 
 ## Cloning / Forking
 
-See [license](https://github.com/strixsc/strix.site/blob/main/LICENSE.txt) and do not include any of my personal files (images, logos, assets, blog posts, personal info/about, etc.).
+See [license](https://github.com/StrixSC/strix.site/blob/master/LICENSE.txt) and do not include any of my personal files (images, logos, assets, blog posts, personal info/about, etc.).
