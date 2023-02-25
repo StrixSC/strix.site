@@ -1,4 +1,46 @@
 [
+     {
+        "url": "https://co-create-strixsc.vercel.app/",
+        "isMain": true,
+        "id": "cocreate",
+        "isGithubLink": false,
+        "name": "CoCreate",
+        "attribution": "",
+        "summary": "Sketch.IO clone with integrated collaborative sketching features and discord-like chatting and team building.",
+        "iconUrlSmall": "https://camo.githubusercontent.com/6fc823ffb2de1ef81f8c3095e6025f16872c40b0657d26aa6266e7c3e96d8b67/68747470733a2f2f73747269782e736974652f6173736574732f636f6372656174652e737667",
+        "iconUrlMedium": "https://camo.githubusercontent.com/6fc823ffb2de1ef81f8c3095e6025f16872c40b0657d26aa6266e7c3e96d8b67/68747470733a2f2f73747269782e736974652f6173736574732f636f6372656174652e737667",
+        "primaryColor": "#F8A342",
+        "startsWith": "c",
+        "textColor": "white",
+        "tech": [
+            {
+                "slug": "angular",
+                "name": "Angular"
+            },
+            {
+                "slug": "flutter",
+                "name": "Flutter"
+            },
+            {
+                "slug": "nodedotjs",
+                "name": "Node.js"
+            },
+            {
+                "slug": "postgresql",
+                "name": "Postgres"
+            },
+            {
+                "slug": "amazonaws",
+                "name": "AWS"
+            }
+        ],
+        "fallbackColor": "#5e41bf",
+        "RGB": {
+            "r": 94,
+            "g": 65,
+            "b": 191
+        }
+    },
     {
         "url": "https://github.com/strixsc/cosmos",
         "isMain": true,
