@@ -10,6 +10,8 @@ body {
     position: absolute;
     color: transparent;
     top: 0;
+    z-index: -1;
+    user-select: none;
   }
 
   .resume {
