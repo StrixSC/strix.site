@@ -9,7 +9,7 @@ body {
   .i {
     position: absolute;
     color: transparent;
-    display: none;
+    top: 0;
   }
 
   .resume {
