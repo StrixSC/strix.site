@@ -29,7 +29,7 @@ const About = (props: any) => {
                     <span>
                         <Link
                             className="underline"
-                            href="https://www.youtube.com/watch?v=3rkUbeGAwOY">
+                            href="https://www.youtube.com/watch?v=1J_Z0Ng2DQU">
                             (/nɔ:ræs/)
                         </Link>
                     </span>
