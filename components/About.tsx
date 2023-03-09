@@ -1,4 +1,4 @@
-import Link from 'next/link';
+aaimport Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Tagline from './Tagline';
 
@@ -33,7 +33,7 @@ const About = (props: any) => {
                             (/nɔ:ræs/)
                         </Link>
                     </span>
-                    , I'm a software engineering student at the École Polytechnique of Montréal. I
+                    , I'm a software engineering student at Polytechnique Montreal. I
                     have a strong background in full-stack development and blockchain development,
                     as well as in cybersecurity engineering.
                     <br></br>
