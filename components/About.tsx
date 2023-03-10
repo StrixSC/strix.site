@@ -1,4 +1,4 @@
-aaimport Link from 'next/link';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Tagline from './Tagline';
 
@@ -33,9 +33,9 @@ const About = (props: any) => {
                             (/nɔ:ræs/)
                         </Link>
                     </span>
-                    , I'm a software engineering student at Polytechnique Montreal. I
-                    have a strong background in full-stack development and blockchain development,
-                    as well as in cybersecurity engineering.
+                    , I'm a software engineering student at Polytechnique Montreal. I have a strong
+                    background in full-stack development and blockchain development, as well as in
+                    cybersecurity engineering.
                     <br></br>
                     <br></br>
                     On this blog, you can expect to find posts containing write-ups and solutions to{' '}
