@@ -25,7 +25,7 @@ const About = (props: any) => {
                 </h3>
 
                 <p className="mt-8 text-xl text-justify text-zinc-800 dark:text-zinc-400">
-                    My name is Nawras{' '}
+                    Nawras{' '}
                     <span>
                         <Link
                             className="underline"
@@ -33,9 +33,6 @@ const About = (props: any) => {
                             (/nɔ:ræs/)
                         </Link>
                     </span>
-                    , and I'm a software engineering. I have a strong
-                    background in full-stack and blockchain engineering, as well as in
-                    cybersecurity engineering.
                     <br></br>
                     <br></br>
                     On this blog, you can expect to find posts containing write-ups and solutions to{' '}
