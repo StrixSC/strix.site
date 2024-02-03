@@ -18,7 +18,7 @@ const LinksGrid = () => {
                     key={link.name}
                     title={link.name}
                     style={style}
-                    className="flex items-center transition-all opacity-80 hover:opacity-100 hover:z-10 justify-center hover:cursor-pointer w-[125px] h-[125px]"
+                    className="flex items-center transition-all hover:z-10 justify-center hover:cursor-pointer w-[125px] h-[125px]"
                     href={link.url}>
                 </Link>
             );
