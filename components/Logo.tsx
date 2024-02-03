@@ -6,7 +6,7 @@ const Logo = (props: any) => {
         <div className="flex items-center justify-center">
             <Link href="/">
                 <img
-                    className="rounded-full object-cover hover:drop-shadow-sm w-[50px] h-[50px]"
+                    className=" hover:drop-shadow-sm w-[50px] h-[50px]"
                     src={src}></img>
             </Link>
         </div>

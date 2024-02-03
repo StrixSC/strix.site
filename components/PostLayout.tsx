@@ -6,7 +6,7 @@ const PostLayout = ({ meta, children }) => {
         <LayoutTemplate title={meta.title}>
             <MDXProvider>
                 <div className="flex justify-center gap-2 mt-24">
-                    <article className="w-full prose lg:prose-xl dark:prose-invert">
+                    <article className="w-full prose lg:prose-xl ">
                         {children}
                     </article>
                 </div>

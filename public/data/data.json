@@ -1,5 +1,5 @@
 [
-     {
+    {
         "url": "https://co-create-strixsc.vercel.app/",
         "isMain": true,
         "id": "cocreate",
@@ -7,8 +7,8 @@
         "name": "CoCreate",
         "attribution": "",
         "summary": "Sketch.IO clone with integrated collaborative sketching features and discord-like chatting and team building.",
-        "iconUrlSmall": "https://camo.githubusercontent.com/6fc823ffb2de1ef81f8c3095e6025f16872c40b0657d26aa6266e7c3e96d8b67/68747470733a2f2f73747269782e736974652f6173736574732f636f6372656174652e737667",
-        "iconUrlMedium": "https://camo.githubusercontent.com/6fc823ffb2de1ef81f8c3095e6025f16872c40b0657d26aa6266e7c3e96d8b67/68747470733a2f2f73747269782e736974652f6173736574732f636f6372656174652e737667",
+        "iconUrlSmall": "https://camo.githubusercontent.com/93e1f85e6c042db2257b0310626b8128ec9fc03cf17dddd7fe61e113e2b9a7f3/68747470733a2f2f73747269782e736974652f6173736574732f636f6372656174652e737667",
+        "iconUrlMedium": "https://camo.githubusercontent.com/93e1f85e6c042db2257b0310626b8128ec9fc03cf17dddd7fe61e113e2b9a7f3/68747470733a2f2f73747269782e736974652f6173736574732f636f6372656174652e737667",
         "primaryColor": "#F8A342",
         "startsWith": "c",
         "textColor": "white",

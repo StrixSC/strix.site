@@ -7,18 +7,19 @@ const Footer = () => {
         navigator.clipboard.writeText(ethAddress);
     };
     return (
-        <div className="text-sm text-neutral-500 dark:text-neutral-400">
+        <div className="text-sm ">
             <div className="flex items-center justify-center gap-2">
                 <Link
                     href="/data/nawrasmamin.ssh.pub"
-                    className="underline decoration-dotted hover:cursor-pointer hover:text-black dark:hover:text-white hover:decoration-solid">
+                    className="underline decoration-dotted hover:cursor-pointer hover:decoration-solid">
                     AAAAC3NzaC1lZDI1NTE5AAAA <abbr title="Secure Shell">(SSH)</abbr>
                 </Link>
             </div>
-            <div className="flex items-center justify-center gap-4 text-sm text-neutral-500 dark:text-neutral-400">
+            <div className="flex items-center justify-center gap-4 text-sm ">
                 <div
                     data-href={`bitcoin:${btcAddress}`}
-                    className="underline decoration-dotted hover:cursor-pointer hover:text-black dark:hover:text-white hover:decoration-solid"
+                    data-tip="Click to copy"
+                    className="underline sm:tooltip decoration-dotted hover:cursor-pointer hover:decoration-solid"
                     onClick={() => {
                         navigator.clipboard.writeText(`bitcoin:${btcAddress}`);
                     }}>
@@ -27,17 +28,16 @@ const Footer = () => {
                 <span> - </span>
                 <div
                     data-href={`eth:${ethAddress}`}
-                    className="underline decoration-dotted hover:cursor-pointer hover:text-black dark:hover:text-white hover:decoration-solid"
+                    data-tip="Click to copy"
+                    className="underline sm:tooltip decoration-dotted hover:cursor-pointer hover:decoration-solid"
                     onClick={() => {
                         navigator.clipboard.writeText(ethAddress);
                     }}>
                     {ethAddress.substring(0, 16)}... <abbr title="Ethereum">(ETH)</abbr>
                 </div>
             </div>
-            <div className="mt-2 text-center">(Click to copy)</div>
             <br></br>
             <div className="text-center">Blog inspired by Portswigger</div>
-            <div className="text-center">CV by Jon Gjengset</div>
             <div className="text-center">
                 Icons by{' '}
                 <Link href="https://simpleicons.org/" className="underline decoration-dotted">

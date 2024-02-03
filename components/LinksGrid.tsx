@@ -18,15 +18,16 @@ const LinksGrid = () => {
                     key={link.name}
                     title={link.name}
                     style={style}
-                    className="flex items-center transition-all hover:ring-2 justify-center hover:cursor-pointer w-[125px] h-[125px]"
-                    href={link.url}></Link>
+                    className="flex items-center transition-all opacity-80 hover:opacity-100 hover:z-10 justify-center hover:cursor-pointer w-[125px] h-[125px]"
+                    href={link.url}>
+                </Link>
             );
         }
         return content;
     };
 
     return (
-        <div className="flex flex-wrap items-center justify-center gap-0 lg:justify-start">
+        <div className="flex flex-wrap items-center justify-center lg:justify-start">
             {renderLinks()}
         </div>
     );

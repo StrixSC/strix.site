@@ -17,14 +17,14 @@ const About = (props: any) => {
                     src={profileImage}></img>
             </div>
             <div id="about" className="lg:w-1/2">
-                <h1 className="mb-1 text-6xl font-extrabold text-black dark:text-white">
+                <h1 className="mb-1 text-6xl font-extrabold ">
                     Nawras M.A.
                 </h1>
-                <h3 className="text-2xl dark:text-zinc-500 text-zinc-600">
+                <h3 className="text-2xl ">
                     {isMounted && <Tagline></Tagline>}
                 </h3>
 
-                <p className="mt-8 text-xl text-justify text-zinc-800 dark:text-zinc-400">
+                <p className="mt-8 text-xl text-justify">
                 Nawras{' '}
                     <span>
                         <Link

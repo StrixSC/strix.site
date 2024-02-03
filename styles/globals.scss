@@ -8,25 +8,13 @@ html {
 }
 
 #__next {
-    @apply bg-white dark:bg-gradient-to-b dark:from-zinc-800 dark:to-zinc-900 dark:bg-zinc-900;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.dark #__next {
-    background-color: #101010 !important;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23323232' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-}
-
-.light #__next {
-    //     background-color: #f1f1f1 !important;
-    //     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-}
-
 @layer base {
     body {
-        @apply text-gray-900 dark:text-gray-100;
         @apply min-h-screen;
         --codeblock_border_color: #252a30 !important;
         --codeblock_bg_color: #0d1117 !important;
@@ -48,8 +36,6 @@ html {
     }
 }
 
-@layer components {
-}
 
 // Following taken from : https://github.com/highlightjs/highlight.js/blob/main/src/styles/github-dark.css
 .hljs {
